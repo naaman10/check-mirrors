@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Color Variables
+
+$title-a: #F41822;
+$title-b: #0A9444;
+
+// $secondary:
+
+// Font Variables
+
+$font-header: 'Roboto', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+
+
+/* Custom CSS */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #eee;
+}
+.title-a, a .title-a {
+  color: $title-a;
+}
+.title-b, a .title-b {
+  color: $title-b;
+}
+h1 .title-a,h1 .title-b {
+  -webkit-text-stroke: 2px #fff;
+  font-size: 48px;
+}
+.navbar-collapse {
+  flex-direction: row-reverse;
+  }
+.home-img {
+  background-image: url('{{ site.github.url }}/img/home-banner.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.home-jmbo {
+  background-color: rgba(0,0,0,0.1);
+  color: #fff;
+  text-align: center;
+}
+.home-details {
+  background-color: lightgray;
+  padding:50px;
+  margin-bottom: 50px;
+}
+.card {
+  margin-bottom: 10px;
+}
+footer {
+  background-color: darkgray;
+  padding: 20px;
+}
+.namo {
+  text-align: center;
+}

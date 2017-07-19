@@ -1,0 +1,46 @@
+/* Custom CSS */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #eee; }
+
+.title-a, a .title-a {
+  color: #F41822; }
+
+.title-b, a .title-b {
+  color: #0A9444; }
+
+h1 .title-a, h1 .title-b {
+  -webkit-text-stroke: 2px #fff;
+  font-size: 48px; }
+
+.navbar-collapse {
+  flex-direction: row-reverse; }
+
+.home-img {
+  background-image: url("/img/home-banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto; }
+
+.home-jmbo {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: center; }
+
+.home-details {
+  background-color: lightgray;
+  padding: 50px;
+  margin-bottom: 50px; }
+
+.card {
+  margin-bottom: 10px; }
+
+footer {
+  background-color: darkgray;
+  padding: 20px; }
+
+.namo {
+  text-align: center; }
