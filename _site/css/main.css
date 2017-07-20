@@ -26,14 +26,18 @@ h1 .title-a, h1 .title-b {
   height: auto; }
 
 .home-jmbo {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: transparent;
   color: #fff;
   text-align: center; }
 
 .home-details {
   background-color: lightgray;
   padding: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: center; }
+
+.nav-item:last-child {
+  margin-left: 15px; }
 
 .card {
   margin-bottom: 10px; }
