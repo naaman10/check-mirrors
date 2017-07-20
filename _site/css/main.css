@@ -18,7 +18,7 @@ h1 .title-a, h1 .title-b {
   flex-direction: row-reverse; }
 
 .home-img {
-  background-image: url("/img/home-banner.webp");
+  background-image: url("/img/home-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
