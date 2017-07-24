@@ -11,12 +11,24 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .nav-item .btn {
+        width: 100%;
+    }
+}
+
 // Color Variables
 
 $title-a: #F41822;
 $title-b: #0A9444;
-
-// $secondary:
+$primary-color-dark:   #0288D1;
+$primary-color:        #03A9F4;
+$primary-color-light:  #B3E5FC;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FFC107;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
 
 // Font Variables
 
@@ -27,8 +39,15 @@ $font-body: 'Open Sans', sans-serif;
 /* Custom CSS */
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  // font-weight: 300;
   background-color: #eee;
+  color: $primary-text-color
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-toggler-icon .material-icons {
+  font-size: 30px;
 }
 .title-a, a .title-a {
   color: $title-a;
@@ -36,13 +55,22 @@ body {
 .title-b, a .title-b {
   color: $title-b;
 }
-h1 .title-a,h1 .title-b {
-  -webkit-text-stroke: 2px #fff;
-  font-size: 48px;
+ h2 .title-a, h2 .title-b {
+  -webkit-text-stroke: 1px #fff;
+  font-size: 40px;
 }
 .navbar-collapse {
   flex-direction: row-reverse;
   }
+.navbar {
+  background-color: $primary-color-dark;
+}
+.nav-item a{
+  color: #ffffff;
+}
+.navbar-nav, .nav-item .btn {
+  font-size: 16px;
+}
 .home-img {
   background-image: url('{{ site.github.url }}/img/home-banner.jpg');
   background-size: cover;
@@ -55,6 +83,9 @@ h1 .title-a,h1 .title-b {
   background-color: rgba(0,0,0,0);
   color: #fff;
   text-align: center;
+}
+.home-jmbo h2 {
+  color: #fff;
 }
 .home-details {
   background-color: lightgray;
@@ -74,4 +105,10 @@ footer {
 }
 .namo {
   text-align: center;
+}
+.btn-primary {
+  background-color: $accent-color;
+}
+.btn-primary:hover {
+  background-color: #388E3C;
 }
