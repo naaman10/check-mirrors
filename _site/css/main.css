@@ -40,6 +40,9 @@ h2 .title-a, h2 .title-b {
 .navbar {
   background-color: #0288D1; }
 
+.dropdown-menu .dropdown-item {
+  color: #212121; }
+
 .nav-item a {
   color: #ffffff; }
 
@@ -100,3 +103,6 @@ footer {
 .about-section {
   margin-top: 30px;
   margin-bottom: 30px; }
+
+.about-image {
+  width: 100%; }

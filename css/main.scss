@@ -76,6 +76,9 @@ body {
 .navbar {
   background-color: $primary-color-dark;
 }
+.dropdown-menu .dropdown-item{
+  color: $primary-text-color;
+}
 .nav-item a{
   color: #ffffff;
 }
@@ -136,4 +139,7 @@ footer {
 .about-section {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.about-image {
+  width: 100%;
 }
