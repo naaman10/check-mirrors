@@ -1,6 +1,9 @@
 @media screen and (max-width: 480px) {
   .nav-item .btn {
-    width: 100%; } }
+    width: 100%; }
+
+  .title-tagline {
+    display: none; } }
 /* Custom CSS */
 body {
   font-family: 'Roboto', sans-serif;
@@ -13,6 +16,10 @@ body {
 .navbar-toggler-icon .material-icons {
   font-size: 30px; }
 
+.title-a, .title-b {
+  font-weight: 500;
+  -webkit-text-stroke: 1px #fff; }
+
 .title-a, a .title-a {
   color: #F41822; }
 
@@ -20,8 +27,12 @@ body {
   color: #0A9444; }
 
 h2 .title-a, h2 .title-b {
-  -webkit-text-stroke: 1px #fff;
-  font-size: 40px; }
+  font-size: 34px;
+  letter-spacing: 2px; }
+
+.title-tagline {
+  font-size: 20px;
+  color: white; }
 
 .navbar-collapse {
   flex-direction: row-reverse; }
@@ -54,8 +65,18 @@ h2 .title-a, h2 .title-b {
 .home-details {
   background-color: lightgray;
   padding: 50px;
-  margin-bottom: 50px;
-  text-align: center; }
+  margin-bottom: 50px; }
+
+.home-features {
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0; }
+
+ul.home-features li::before {
+  content: "\f00c";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  padding-right: 5px; }
 
 .nav-item:last-child {
   margin-left: 15px; }
@@ -75,3 +96,7 @@ footer {
 
 .btn-primary:hover {
   background-color: #388E3C; }
+
+.about-section {
+  margin-top: 30px;
+  margin-bottom: 30px; }
