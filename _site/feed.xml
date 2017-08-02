@@ -3,10 +3,10 @@
   <channel>
     <title>CheckMirrors</title>
     <description>checkmirrors school of motoring. Learn to drive in Yorkshire. Driving lessons from qualified instructors. First 3 lessons only £39. Pass plus options. York and Leeds.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Aug 2017 19:26:45 +0100</pubDate>
-    <lastBuildDate>Tue, 01 Aug 2017 19:26:45 +0100</lastBuildDate>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Aug 2017 18:01:18 +0100</pubDate>
+    <lastBuildDate>Wed, 02 Aug 2017 18:01:18 +0100</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
   </channel>
