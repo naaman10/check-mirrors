@@ -88,6 +88,7 @@ ul.home-features li::before {
   margin-bottom: 10px; }
 
 footer {
+  margin-top: 40px;
   background-color: darkgray;
   padding: 20px; }
 
@@ -124,7 +125,36 @@ footer {
   height: auto;
   padding: 90px; }
 
+.lessons-img {
+  background-image: url(/img/road-car-tire.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 90px; }
+
+.instructor-img {
+  background-image: url(/img/york-map.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 90px; }
+
+.lessons-img .page-title h1 {
+  color: white; }
+
+.lessons-lessons {
+  margin-bottom: 40px; }
+
 form {
   background-color: white;
-  padding: 40px;
-  margin-bottom: 40px; }
+  padding: 40px; }
