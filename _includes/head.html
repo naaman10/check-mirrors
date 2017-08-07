@@ -7,6 +7,21 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <script src="https://use.fontawesome.com/a7c1956c8a.js"></script>
 
+  {% if page.category == Testimonial %}
+
+    <meta property="og:url"           content="{{ site.github.url }}{{ page.url }}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="I passed with Check Mirrors" />
+    <meta property="og:description"   content="{{ page.title }}" />
+    <meta property="og:image"         content="{{ page.img-url }}" />
+    {% else %}
+    <meta property="og:url"           content="{{ site.github.url }}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="I passed with Check Mirrors" />
+    <meta property="og:description"   content="{{ page.title }}" />
+    <meta property="og:image"         content="{{ site.github.url }}/img/share-image.jpg" />
+  {% endif %}
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://bootswatch.com/4-alpha/materia/bootstrap.min.css" type="text/css">

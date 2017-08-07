@@ -26,18 +26,31 @@ permalink: /contact
 
 <div class="container">
   <div class="row">
-    <div class="col"></div>
+<div class="col"></div>
     <div class="col-6">
-      <h2>Get in touch!</h2>
-      <p class="lead"> If you have any questions for me, please let me know...</p>
-      <form method="POST" action="http://formspree.io/naamanh10@gmail.com" class="form-group">
-        <input type="email" name="email" placeholder="Your email" class="form-control">
-        <textarea name="message" placeholder="Your message" class="form-control"></textarea>
-        <button type="submit" class="btn btn-default">Send</button>
+      <form method="POST" action="http://formspree.io/YOUREMAILHERE">
+        <h2>Get in touch!</h2>
+        <p class="lead">To start your journey, please complete the form below and we will contact you as soon as possible.</p>
+        <div class="form-group">
+          <input class="col" type="email" name="email" placeholder="Your email">
+        </div>
+        <div class="form-group">
+          <input class="col" type="text" name="number" placeholder="Your number">
+        </div>
+        <div class="form-group">
+          <input  class="form-control" type="date" name="date" placeholder="preferred date" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="form-group">
+          <textarea class="col" name="message" placeholder="Your message"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">Send</button>
+        </div>
 
         <input type="hidden" name="_next" value="//site.io/thanks.html" />
       </form>
     </div>
-    <div class="col"></div>
+<div class="col"></div>
   </div>
 </div>
