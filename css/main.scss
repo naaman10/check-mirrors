@@ -143,3 +143,25 @@ footer {
 .about-image {
   width: 100%;
 }
+.passpluss {
+  display: inline;
+  width: 50px;
+  height: auto;
+}
+.contact-img {
+  background-image: url({{ site.github.url}}/img/pexels-photo-45113.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+form {
+  background-color: white;
+  padding: 40px;
+  margin-bottom: 40px;
+}
