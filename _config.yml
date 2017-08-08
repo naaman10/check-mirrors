@@ -7,12 +7,11 @@
 
 # Site settings
 title: CheckMirrors
-email: your-email@domain.com
-description: checkmirrors school of motoring. Learn to drive in Yorkshire. Driving lessons from qualified instructors. First 3 lessons only £39. Pass plus options. York and Leeds. 
+email: checkmirrors@gmail.com
+description: checkmirrors school of motoring. Learn to drive in Yorkshire. Driving lessons from qualified instructors. From just £25 per hour. Pass plus options. York and Leeds.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.checkmirrors.co.uk" # the base hostname & protocol for your site
+
 
 # Build settings
 markdown: kramdown
