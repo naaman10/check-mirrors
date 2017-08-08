@@ -161,7 +161,19 @@ footer {
   height: auto;
   padding: 90px; }
 
-.lessons-img .page-title h1, .instructors-img .page-title h1 {
+.trainee-img {
+  background-image: url(/img/trainee-banner.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 90px; }
+
+.lessons-img .page-title h1, .instructors-img .page-title h1, .trainee-img .page-title h1 {
   color: white; }
 
 .lessons-lessons {
@@ -176,3 +188,11 @@ footer {
 form {
   background-color: white;
   padding: 40px; }
+
+.promo {
+  text-align: center;
+  background-color: #5eb8ff;
+  color: white;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: -40px; }
