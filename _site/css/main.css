@@ -149,11 +149,29 @@ footer {
   height: auto;
   padding: 90px; }
 
-.lessons-img .page-title h1 {
+.instructors-img {
+  background-image: url(/img/instructors-banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 90px; }
+
+.lessons-img .page-title h1, .instructors-img .page-title h1 {
   color: white; }
 
 .lessons-lessons {
   margin-bottom: 40px; }
+
+.inst-image {
+  margin-top: 20px; }
+
+.inst-image img {
+  width: 100%; }
 
 form {
   background-color: white;
