@@ -15,3 +15,14 @@ url: "http://www.checkmirrors.co.uk" # the base hostname & protocol for your sit
 
 # Build settings
 markdown: kramdown
+
+# Defaults
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      img-url: ""
+      categories: "Testimonials"
