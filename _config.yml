@@ -8,6 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    img-url: ''
+    categories: Testimonials
 email: checkmirrors@gmail.com
 description: checkmirrors school of motoring. Learn to drive in Yorkshire. Driving
   lessons from qualified instructors. From just £25 per hour. Pass plus options. York
@@ -15,14 +22,3 @@ description: checkmirrors school of motoring. Learn to drive in Yorkshire. Drivi
 baseurl: ''
 url: http://www.checkmirrors.co.uk
 markdown: kramdown
-
-# Defaults
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      img-url: ""
-      categories: "Testimonials"
