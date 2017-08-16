@@ -41,6 +41,7 @@ $font-body: 'Open Sans', sans-serif;
 
 /* Custom CSS */
 body {
+  counter-reset: item;
   font-family: 'Roboto', sans-serif;
   // font-weight: 300;
   background-color: #eee;
@@ -65,6 +66,20 @@ body {
  h2 .title-a, h2 .title-b {
   font-size: 34px;
   letter-spacing: 2px;
+}
+h2 .title-b {
+  background-image: url({{ site.github.url }}/img/eyes.png);
+  background-size: 23px 25px;
+  background-repeat: no-repeat;
+  background-position-x: 47px;
+  background-position-y: 10px;
+}
+h1 span.title-b {
+  background-image: url({{ site.github.url }}/img/eyes.png);
+  background-size: 23px 26px;
+  background-repeat: no-repeat;
+  background-position-x: 50px;
+  background-position-y: 14px;
 }
 .title-tagline {
   font-size: 20px;
@@ -232,4 +247,24 @@ form {
   padding: 40px;
   margin-top: 40px;
   margin-bottom: -40px;
+}
+ol.list {
+  list-style: none;
+}
+li.item {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+li.item:before {
+  padding: 10px;
+  margin-right: 10px;
+  content: counter(item);
+  background: $accent-color;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  display: inline;
+}
+li.item h3 {
+  display: inline;
 }
