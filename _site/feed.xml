@@ -3,11 +3,26 @@
   <channel>
     <title>CheckMirrors</title>
     <description>checkmirrors school of motoring. Learn to drive in Yorkshire. Driving lessons from qualified instructors. From just £25 per hour. Pass plus options. York and Leeds.</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Aug 2017 19:22:09 +0100</pubDate>
-    <lastBuildDate>Mon, 14 Aug 2017 19:22:09 +0100</lastBuildDate>
-    <generator>Jekyll v3.4.0</generator>
+    <link>http://www.checkmirrors.co.uk/</link>
+    <atom:link href="http://www.checkmirrors.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 Aug 2017 17:12:24 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Aug 2017 17:12:24 +0000</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Congratulations to Rob Ferguson who passed with Nick on 9th January 2017 at York. 1st time</title>
+        <description>&lt;p&gt;Rob said “Just passed first time with Nick and cannot say enough good things about him. Very calm influence, great teaching style and you couldn’t ask for a more qualified teacher. I would recommend Nick to anyone and I’ve already got my younger brother learning with him and I’m sure my younger sister will learn with him as well as a result. I felt very safe in his capable hands and credit my passing to him. Thank you Nick!”&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Jan 2017 12:22:00 +0000</pubDate>
+        <link>http://www.checkmirrors.co.uk/testimonials/testimonial/2017/01/09/rob-ferguson-pass.html</link>
+        <guid isPermaLink="true">http://www.checkmirrors.co.uk/testimonials/testimonial/2017/01/09/rob-ferguson-pass.html</guid>
+        
+        
+        <category>Testimonials</category>
+        
+        <category>Testimonial</category>
+        
+      </item>
     
       <item>
         <title>Congratulations to Seb Swenson who passed on 4 January 2017 with Sarah. First time with 11 minor faults</title>
@@ -15,8 +30,8 @@
 Thanks so much for everything. I’d recommend the company and my instructor particularly to anyone looking to learn or just refresh”&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Jan 2017 21:14:23 +0000</pubDate>
-        <link>http://0.0.0.0:4000/testimonials/testimonial/2017/01/04/Seb-Swenson-pass.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/testimonial/2017/01/04/Seb-Swenson-pass.html</guid>
+        <link>http://www.checkmirrors.co.uk/testimonials/testimonial/2017/01/04/Seb-Swenson-pass.html</link>
+        <guid isPermaLink="true">http://www.checkmirrors.co.uk/testimonials/testimonial/2017/01/04/Seb-Swenson-pass.html</guid>
         
         
         <category>Testimonials</category>
