@@ -24,11 +24,23 @@ tags:
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div class="container testimonal-img">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-9">
+      <div class="page-title">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
 
   <div class="container-fluid">
     <div class="row">
+      <div class="col"></div>
       {% for post in site.posts %}
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-3 col-xs-12">
         <div class="card">
           <img class="card-img-top" src="{{ post.img-url }}" alt="Our fleet">
           <div class="card-block">
@@ -41,6 +53,6 @@ tags:
         </div>
       </div>
 {% endfor %}
-
+<div class="col"></div>
   </div>
 </div>
