@@ -16,7 +16,9 @@ defaults:
     img-url: ''
     categories: Testimonials
 email: checkmirrors@gmail.com
-description: checkmirrors school of motoring. Learn to drive in Yorkshire. Driving lessons from qualified instructors. From just £25 per hour. Pass plus options. York Leeds & Wakefield.
+description: checkmirrors school of motoring. Learn to drive in Yorkshire. Driving
+  lessons from qualified instructors. From just £25 per hour. Pass plus options. York
+  Leeds & Wakefield.
 baseurl: ''
 url: http://www.checkmirrors.co.uk
 markdown: kramdown
