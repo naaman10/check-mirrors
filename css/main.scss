@@ -18,7 +18,7 @@
     .title-tagline {
       display: none;
     }
-    footer a {
+    footer a .fa {
       font-size: 20px;
     }
     .footer-cert {
@@ -236,7 +236,7 @@ footer {
   padding: 90px;
 }
 .testimonal-img {
-  background-image: url(http://via.placeholder.com/1263x365);
+  background-image: url('{{ site.github.url }}/img/testimonials-header.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,6 +246,23 @@ footer {
   width: 100%;
   height: auto;
   padding: 90px;
+}
+.passpluss-img {
+  background-image: url('{{ site.github.url }}/img/passplus-header.jpeg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 90px;
+}
+.passplus-price {
+    background-image: url('{{ site.github.url }}/img/passplus-price.jpg');
+    background-size: cover;
+    margin-bottom: -40px;
 }
 .lessons-img .page-title h1, .instructors-img .page-title h1, .trainee-img .page-title h1 {
   color: white;
@@ -258,6 +275,10 @@ footer {
 }
 .lessons-2 h4 {
   color: white;
+}
+.lessons-2 img {
+  filter: blur(1px) brightness(90%);
+  -webkit-filter: blur(1px) brightness(90%);
 }
 .inst-image {
   margin-top: 20px;
@@ -296,4 +317,11 @@ li.item:before {
 }
 li.item h3 {
   display: inline;
+}
+footer a .fa {
+  font-size: 30px;
+}
+.not-found {
+  font-size: 72px;
+  text-align: center;
 }
