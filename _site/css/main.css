@@ -14,7 +14,7 @@
 body {
   counter-reset: item;
   font-family: 'Roboto', sans-serif;
-  background-color: #eee;
+  background-color: #e2e2e2;
   color: #212121; }
 
 .navbar-toggler-icon {
@@ -122,10 +122,10 @@ footer {
   text-align: center; }
 
 .btn-primary {
-  background-color: #FFC107; }
+  background-color: #388E3C; }
 
 .btn-primary:hover {
-  background-color: #388E3C; }
+  background-color: #FFC107; }
 
 .about-section {
   margin-top: 30px;
@@ -164,7 +164,7 @@ footer {
   padding: 90px; }
 
 .instructor-img {
-  background-image: url(/img/york-map.png);
+  background-image: url(/img/leeds-map.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
