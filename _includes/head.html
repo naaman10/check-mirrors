@@ -3,29 +3,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Pragma" content="no-cache">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% include favicon.html %}
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{%if page.tags %}{{ page.tags | join: ', ' | escape }}{% else %}{{ site.tags | join: ', ' | escape }}{% endif %}"/>
 
   {% include google.html %}
-  <!-- Google Tag Manager -->   
+  <!-- Google Tag Manager -->
   <script src="https://use.fontawesome.com/a7c1956c8a.js"></script>
 
-  {% if page.category == Testimonial %}
 
-    <meta property="og:url"           content="{{ site.github.url }}{{ page.url }}" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="I passed with Check Mirrors" />
-    <meta property="og:description"   content="{{ page.title }}" />
-    <meta property="og:image"         content="{{ page.img-url }}" />
-    {% else %}
-    <meta property="og:url"           content="{{ site.github.url }}" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="checkmirrors School of Motoring" />
-    <meta property="og:description"   content="{{ page.title }}" />
-    <meta property="og:image"         content="{{ site.github.url }}/img/share-image.jpg" />
-  {% endif %}
+    {% include normal-meta.html %}
+
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" type="text/css">
