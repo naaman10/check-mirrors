@@ -79,7 +79,7 @@ h1 span.title-b {
   height: auto; }
 
 .home-jmbo {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
   text-align: center; }
 
