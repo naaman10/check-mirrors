@@ -87,6 +87,9 @@ h1 span.title-b {
   background-position-x: 50px;
   background-position-y: 14px;
 }
+p.lead>span.title-a, p.lead>span.title-b {
+  font-size: 24px;
+}
 .title-tagline {
   font-size: 20px;
   color: white;
@@ -107,7 +110,7 @@ h1 span.title-b {
   font-size: 16px;
 }
 .home-img {
-  background-image: url('{{ site.github.url }}/img/home-banner.jpg');
+  background-image: url('{{ site.github.url }}/img/passplus-price.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,9 +162,11 @@ footer {
 }
 .btn-primary {
   background-color: #388E3C;
+  border-color: #388E3C;
 }
 .btn-primary:hover {
   background-color: $accent-color;
+  border-color: $accent-color;
 }
 .about-section {
   margin-top: 30px;
@@ -176,7 +181,7 @@ footer {
   height: auto;
 }
 .contact-img {
-  background-image: url({{ site.github.url}}/img/pexels-photo-45113.jpeg);
+  background-image: url('{{ site.github.url}}/img/pexels-photo-45113.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +193,7 @@ footer {
   padding: 90px;
 }
 .lessons-img {
-  background-image: url({{ site.github.url}}/img/road-car-tire.jpg);
+  background-image: url('{{ site.github.url}}/img/road-car-tire.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,7 +205,7 @@ footer {
   padding: 90px;
 }
 .instructor-img {
-  background-image: url({{ site.github.url}}/img/leeds-map.png);
+  background-image: url('{{ site.github.url}}/img/trainee-banner.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,7 +217,7 @@ footer {
   padding: 90px;
 }
 .instructors-img {
-  background-image: url({{ site.github.url}}/img/instructors-banner.jpg);
+  background-image: url('{{ site.github.url}}/img/instructors-banner.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,7 +229,7 @@ footer {
   padding: 90px;
 }
 .trainee-img {
-  background-image: url({{ site.github.url}}/img/trainee-banner.jpeg);
+  background-image: url('{{ site.github.url}}/img/trainee-banner.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +253,7 @@ footer {
   padding: 90px;
 }
 .passpluss-img {
-  background-image: url('{{ site.github.url }}/img/passplus-header.jpeg');
+  background-image: url('{{ site.github.url }}/img/pexels-photo-45113.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,7 +269,7 @@ footer {
     background-size: cover;
     margin-bottom: -40px;
 }
-.lessons-img .page-title h1, .instructors-img .page-title h1, .trainee-img .page-title h1 {
+.lessons-img .page-title h1, .instructors-img .page-title h1, .trainee-img .page-title h1, .instructor-img .page-title h1, .testimonal-img .page-title h1 {
   color: white;
 }
 .lessons-lessons {
@@ -322,6 +327,18 @@ footer a .fa {
   font-size: 30px;
 }
 .not-found {
-  font-size: 72px;
+  font-size: 92px;
   text-align: center;
+  font-weight: bold;
+  color: red;
+  background-color: white;
+  transform: rotate(-7deg);
+  width: 150px;
+  height: 150px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
