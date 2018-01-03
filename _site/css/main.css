@@ -112,7 +112,6 @@ ul.home-features li::before {
   margin-bottom: 10px; }
 
 footer {
-  margin-top: 40px;
   background-color: darkgray;
   padding: 20px; }
 
@@ -134,7 +133,9 @@ footer {
 
 .about-section {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff; }
 
 .about-image {
   width: 100%; }
@@ -305,3 +306,7 @@ footer a .fa {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 20px; }
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: .3rem; }
