@@ -1,2 +1,4 @@
 # check-mirrors
-CheckMirrors Staging Site
+CheckMirrors Driving Instructors Webite
+
+Designed and deployed by Naaman Hudson
