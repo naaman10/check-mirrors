@@ -14,7 +14,7 @@ defaults:
     type: posts
   values:
     Image: ''
-    Title : ''
+    Title: ''
     Date: ''
     year: ''
     categories: Testimonials
