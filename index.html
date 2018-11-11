@@ -15,13 +15,15 @@ tags:
 
 <!-- Page Intro -->
 
-<div class="container home-img">
+<section class="home-img">
+<div class="container">
   <div class="row">
     <div class="col">
-      <div class="jumbotron home-jmbo animated fadeInUp">
+      <div class="home-jmbo animated fadeInUp">
         <h1><span class="title-a">check</span><span class="title-b">mirrors</span></h1>
         <h2>Driving instructors in York</h2>
         <hr class="my-4">
+
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="tel:07821291783" role="button"><i class="fa fa-phone" data-wow-delay=".1s"></i> Call to Book</a>
         </p>
@@ -30,6 +32,7 @@ tags:
     </div>
   </div>
 </div>
+</section>
 
 <!-- Intro End -->
 
@@ -39,13 +42,13 @@ tags:
     <div class="row">
       <div class="col col-xs-12">
         <h3>Learn to drive with confidence</h3>
-      <ul class="home-features">
-        <li>Learn to drive in <a href="/driving-lessons-york">York</a></li>
-        <li>Fully qualified ADI instructors</li>
-        <li>Pass Plus Available</li>
-        <li>Flexible around you</li>
-        <li>NHS discount available</li>
-      </ul>
+        <ul class="home-features">
+          <li><i class="fas fa-check"></i> Learn to drive in <a href="/driving-lessons-york">York</a></li>
+          <li><i class="fas fa-check"></i> Fully qualified ADI instructors</li>
+          <li><i class="fas fa-check"></i> Pass Plus Available</li>
+          <li><i class="fas fa-check"></i> Flexible around you</li>
+          <li><i class="fas fa-check"></i> NHS discount available</li>
+        </ul>
       </div>
       <div class="col col-xs-12">
         <p class="lead"><span class="title-a">check</span><span class="title-b">mirrors</span> is an established school of motoring.  We pride ourselves on offering a professional, high standard service that puts the pupil first.</p>
@@ -62,23 +65,23 @@ tags:
     <div class="col-md-4 col-xs-12">
       <div class="card">
         <img class="card-img-top" src="{{ site.github.url }}/img/card-1.jpg" alt="Our fleet">
-        <div class="card-block">
-          <h4 class="card-title">Learn to Drive</h4>
+        <div class="card-body">
+          <h4 class="card-title"><a>Learn to Drive</a></h4>
           <p class="card-text">
             <ul>
-            <li>Flexible times to suit</li>
-            <li>Accreditted instructors</li>
-            <li>Only £26 per lesson</li>
-          </ul>
+              <li>Flexible times to suit</li>
+              <li>Accreditted instructors</li>
+              <li>Only {{ site.pricePerLesson }} per lesson</li>
+            </ul>
           </p>
-          <a href="/lessons" class="btn btn-primary btn-block">Learn to drive</a>
+          <a href="/lessons" class="btn btn-primary btn-block">Learn More</a>
         </div>
       </div>
     </div>
     <div class="col-md-4 col-xs-12">
       <div class="card">
         <img class="card-img-top" src="{{ site.github.url }}/img/card-2.jpeg" alt="Card image cap">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Pass Plus</h4>
           <p class="card-text">
             <ul>
@@ -94,7 +97,7 @@ tags:
     <div class="col-md-4 col-xs-12">
       <div class="card">
         <img class="card-img-top" src="{{ site.github.url }}/img/card-3.jpg" alt="Card image cap">
-        <div class="card-block">
+        <div class="card-body">
           <h4 class="card-title">Become an Instructor</h4>
           <p class="card-text">
             <ul>
