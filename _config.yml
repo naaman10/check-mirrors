@@ -13,8 +13,8 @@ defaults:
     path: ''
     type: posts
   values:
-    Image: ''
-    Title: ''
+    image: ''
+    Title : ''
     Date: ''
     year: ''
     categories: Testimonials
