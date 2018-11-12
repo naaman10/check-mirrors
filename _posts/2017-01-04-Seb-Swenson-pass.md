@@ -5,7 +5,7 @@ date: 2017-01-04 21:14:23 Z
 categories:
 - Testimonial
 layout: post
-img-url: /img/testimonial-images/seb-swenson.jpg
+img-url: "/img/testimonial-images/seb-swenson.jpg"
 ---
 
 Seb said:  "Experienced, knowledgeable, helpful and honest. I had a great instructor that helped both my wife and I pass our tests and it was well with every penny.  I don't think "thanks" is enough to convey the level of appreciation I'm feeling right now, but the contribution of tough love, honest feedback and patience was just what I needed to pass.

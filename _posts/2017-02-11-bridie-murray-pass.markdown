@@ -4,7 +4,7 @@ title: Congratulations to Bridie Murray from York, Passed second time with only 
 date: 2017-02-11 12:22:00 Z
 categories:
 - Testimonial
-img-url: /img/testimonial-images/bridie-murray.jpg
+img-url: "/img/testimonial-images/bridie-murray.jpg"
 ---
 
 "Sarah has been fantastic. After going through at least 5 other different instructors, I instantly knew Sarah was a keeper!
