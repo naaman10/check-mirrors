@@ -1,9 +1,0 @@
----
-title: 2018 Test
-date: 2018-01-15 23:15:00 Z
-image: "/uploads/naaman.png"
-year: 2018
-layout: post
----
-
-Well done test on passing your test!
