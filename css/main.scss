@@ -21,7 +21,7 @@
     .title-tagline {
       display: none;
     }
-    footer a .fa {
+    footer a .fa, footer a i.far, footer a i.fab {
       font-size: 20px;
     }
     .footer-cert {
@@ -418,7 +418,7 @@ li.item:before {
 li.item h3 {
   display: inline;
 }
-footer a .fa {
+footer a .fa, footer a i.far, footer a i.fab {
   font-size: 30px;
 }
 .not-found {
