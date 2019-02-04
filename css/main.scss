@@ -27,6 +27,16 @@
     .footer-cert {
     display: none;
     }
+    .btn-responsive {
+      margin: inherit;
+      width: 100%;
+    }
+    .modal.show .modal-dialog {
+      width: 100%;
+margin: 0;
+height: 100%;
+
+    }
 }
 
 // Color Variables
@@ -212,10 +222,10 @@ p.lead>span.title-a, p.lead>span.title-b {
   color: #fff;
 }
 .home-details {
-  background-color: lightgray;
+  background-color: white;
   padding:50px;
   margin-bottom: 50px;
-  // text-align: center;
+  text-align: center;
 }
 .home-features {
   list-style:none;
@@ -229,7 +239,6 @@ p.lead>span.title-a, p.lead>span.title-b {
 footer {
   background-color: darkgray;
   padding: 20px;
-  margin-top: 30px;
 }
 .footer-cert {
   text-align: center;
@@ -473,3 +482,37 @@ footer #social i {
 .nav-link.typeform-share.button {
   background-color: #388E3C;
 }
+span.required {
+  color: red;
+}
+div#busy {
+  display: none;
+}
+#busy,.completeMessage {
+  text-align: center;
+  width:100%;
+}
+@-webkit-keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+.spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+  }
