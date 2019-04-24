@@ -8,7 +8,9 @@
   .title-tagline {
     display: none; }
 
-  footer a .fa, footer a i.far, footer a i.fab {
+  footer a .fa,
+  footer a i.fab,
+  footer a i.far {
     font-size: 20px; }
 
   .footer-cert {
@@ -176,7 +178,8 @@ p.lead > span.title-a, p.lead > span.title-b {
 
 .home-details {
   background-color: white;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-bottom: 50px;
   text-align: center; }
 
@@ -205,6 +208,10 @@ footer {
   border-color: #388E3C !important; }
 
 .btn-primary:hover {
+  background-color: #FFC107 !important;
+  border-color: #FFC107 !important; }
+
+.btn-secondary {
   background-color: #FFC107 !important;
   border-color: #FFC107 !important; }
 
@@ -458,3 +465,25 @@ div#busy {
   border-radius: 50%;
   -webkit-animation: spinner-border .75s linear infinite;
   animation: spinner-border .75s linear infinite; }
+
+.plain-intro {
+  min-height: 300px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+  color: #ffffff;
+  padding-top: 30px; }
+
+.home-features li {
+  margin: 10px; }
+
+.card.text-white .card-text {
+  color: white;
+  text-align: center;
+  font-size: 26px; }
+
+.card.text-white .card-text a {
+  color: #F41822;
+  font-weight: bold; }
+
+#ppTestimonial {
+  background-color: white !important; }
