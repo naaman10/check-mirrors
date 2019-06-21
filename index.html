@@ -13,114 +13,131 @@ tags:
 - NHS
 ---
 
-<!-- Page Intro -->
-<section class="home-img p-8">
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="home-jmbo animated fadeInUp">
-        <h1><span class="title-a">check</span><span class="title-b">mirrors</span></h1>
-        <h2>Driving instructors in York</h2>
-        <p class="lead">As an established school of motoring we pride ourselves on offering a professional, high standard service that always puts the pupil first.</p>
-        <hr class="my-4">
-
-        <p class="lead">
-          <a class="btn btn-primary btn-lg btn-responsive" href="tel:07821291783" role="button"><i class="fa fa-phone" data-wow-delay=".1s"></i> Call to Book</a> or <button class="btn btn-primary btn-lg btn-responsive" data-toggle="modal" data-target="#bookFormModal">Book Online</button>
-        </p>
-        {% include fb-share.html %}
+<section class="home_banner_area">
+  <div class="banner_inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="banner_content text-center">
+            <h1><span class="title-a">check</span><span class="title-b">mirrors</span></h1>
+            <h3>Driving instructors in York</h3>
+            <p class="lead">As an established school of motoring we pride ourselves on offering a professional, high standard service that always puts the pupil first.</p>
+            <div class="mb-3">
+              <a class="btn btn-primary btn-lg btn-responsive" href="tel:07821291783" role="button"><i class="fa fa-phone" data-wow-delay=".1s"></i> Call to Book</a> or <button class="btn btn-primary btn-lg btn-responsive" data-toggle="modal" data-target="#bookFormModal">Book Online</button>
+            </div>
+            {% include fb-share.html %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
 
-<!-- Intro End -->
+<section class="feature_area section_gap_top">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="main_title">
+          <h2 class="mb-3">Our Services</h2>
+          <p>
+            Learning to drive couldn't be easier with checkmirrors
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <div class="card">
+            <img class="card-img-top" src="{{ site.github.url }}/img/card-1.jpg" alt="Our fleet">
+            <div class="card-body">
+              <h4 class="card-title"><a>Learn to Drive</a></h4>
+              <p class="card-text">
+                <ul>
+                  <li>Flexible times to suit</li>
+                  <li>Accreditted instructors</li>
+                  <li>Only {{ site.pricePerLesson }} per lesson</li>
+                </ul>
+              </p>
+              <a href="{{ site.github.url }}/driving-lessons-york/" class="btn btn-primary btn-block">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="card">
+            <img class="card-img-top" src="{{ site.github.url }}/img/card-2.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Pass Plus</h4>
+              <p class="card-text">
+                <ul>
+                  <li>Excellent for new drivers</li>
+                  <li>Lower your insurance premium</li>
+                  <li>Safe driving for life</li>
+                </ul>
+              </p>
+              <a href="{{ site.github.url }}/passplus" class="btn btn-primary btn-block">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="card">
+            <img class="card-img-top" src="{{ site.github.url }}/img/card-3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Become an Instructor</h4>
+              <p class="card-text">
+                <ul>
+                  <li>Flexible working hours</li>
+                  <li>self-employment</li>
+                  <li>regular pupil referrals</li>
+                </ul>
+              </p>
+              <a href="{{ site.github.url }}/become-an-instructor/" class="btn btn-primary btn-block">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<!-- Home Details -->
-<section class="home-details">
-  <div class="container-fluid">
+<section class="feature_area section_gap_top">
+  <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6">
-        <h3>Learn to drive with confidence</h3>
-        <ul class="home-features">
-          <li><i class="fas fa-check"></i> Learn to drive in <a href="/driving-lessons-york">York</a></li>
-          <li><i class="fas fa-check"></i> Fully qualified ADI instructors</li>
-          <li><i class="fas fa-check"></i> Pass Plus Available</li>
-          <li><i class="fas fa-check"></i> Flexible around you</li>
-          <li><i class="fas fa-check"></i> NHS discount available</li>
-          <a href="{{site.github.url}}/driving-lessons-york" class="btn btn-secondary">Find out more</a>
-        </ul>
+      <div class="col-lg-6 col-md-6">
+        <div class="single_feature">
+          <div class="icon"><span class="fas fa-graduation-cap"></span></div>
+          <div class="desc">
+            <h4 class="mt-3 mb-2">Learn to drive with confidence</h4>
+            <ul class="home-features">
+              <li><i class="fas fa-check"></i> Learn to drive in <a href="/driving-lessons-york">York</a></li>
+              <li><i class="fas fa-check"></i> Fully qualified ADI instructors</li>
+              <li><i class="fas fa-check"></i> Pass Plus Available</li>
+              <li><i class="fas fa-check"></i> Flexible around you</li>
+              <li><i class="fas fa-check"></i> NHS discount available</li>
+              <a href="{{site.github.url}}/driving-lessons-york" class="btn btn-secondary">Find out more</a>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="col col-xs-12">
-        <h3>Become a Driving Instructor</h3>
-        <ul class="home-features">
-          <li><i class="fas fa-check"></i> Become ADI Qualified</a></li>
-          <li><i class="fas fa-check"></i> One to one tuition</li>
-          <li><i class="fas fa-check"></i> Tailoured to suit you</li>
-          <li><i class="fas fa-check"></i> Set your own hours</li>
-          <a href="{{site.github.url}}/become-an-instructor" class="btn btn-secondary">Find out more</a>
-        </ul>
+      <div class="col-lg-6 col-md-6">
+        <div class="single_feature">
+          <div class="icon"><span class="fas fa-car"></span></div>
+          <div class="desc">
+            <h4 class="mt-3 mb-2">Become a Driving Instructor</h4>
+            <ul class="home-features">
+              <li><i class="fas fa-check"></i> Become ADI Qualified</a></li>
+              <li><i class="fas fa-check"></i> One to one tuition</li>
+              <li><i class="fas fa-check"></i> Tailoured to suit you</li>
+              <li><i class="fas fa-check"></i> Set your own hours</li>
+              <li><i class="fas fa-check"></i> Free livery</li>
+              <a href="{{site.github.url}}/become-an-instructor" class="btn btn-secondary">Find out more</a>
+            </ul>
+          </div>
+        </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- Home Page Cards -->
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-4 col-xs-12">
-      <div class="card">
-        <img class="card-img-top" src="{{ site.github.url }}/img/card-1.jpg" alt="Our fleet">
-        <div class="card-body">
-          <h4 class="card-title"><a>Learn to Drive</a></h4>
-          <p class="card-text">
-            <ul>
-              <li>Flexible times to suit</li>
-              <li>Accreditted instructors</li>
-              <li>Only {{ site.pricePerLesson }} per lesson</li>
-            </ul>
-          </p>
-          <a href="{{ site.github.url }}/driving-lessons-york/" class="btn btn-primary btn-block">Learn More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-xs-12">
-      <div class="card">
-        <img class="card-img-top" src="{{ site.github.url }}/img/card-2.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Pass Plus</h4>
-          <p class="card-text">
-            <ul>
-              <li>Excellent for new drivers</li>
-              <li>Lower your insurance premium</li>
-              <li>Safe driving for life</li>
-            </ul>
-          </p>
-          <a href="{{ site.github.url }}/passplus" class="btn btn-primary btn-block">Learn More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-xs-12">
-      <div class="card">
-        <img class="card-img-top" src="{{ site.github.url }}/img/card-3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Become an Instructor</h4>
-          <p class="card-text">
-            <ul>
-              <li>Flexible working hours</li>
-              <li>self-employment</li>
-              <li>regular pupil referrals</li>
-            </ul>
-          </p>
-          <a href="{{ site.github.url }}/become-an-instructor/" class="btn btn-primary btn-block">Learn more</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Cards End -->
 
 {% include about.html %}
