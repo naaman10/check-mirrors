@@ -3,7 +3,7 @@
 
   var nav_offset_top = $("header").height() + 50;
   /*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
   //* Navbar Fixed
@@ -35,19 +35,19 @@
   /*  Course Slider
     /*----------------------------------------------------*/
   function active_course() {
-    if ($(".active_course").length) {
-      $(".active_course").owlCarousel({
+    if ($(".driving_features").length) {
+      $(".driving_features").owlCarousel({
         loop: true,
         margin: 20,
-        items: 3,
-        nav: true,
+        items: 4,
+        nav: false,
         autoplay: 2500,
         smartSpeed: 1500,
         dots: false,
         responsiveClass: true,
         thumbs: true,
         thumbsPrerendered: true,
-        navText: ["<img src='img/prev.png'>", "<img src='img/next.png'>"],
+        navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
         responsive: {
           0: {
             items: 1,

@@ -44,7 +44,7 @@
     position: absolute;
   }
   .header_area .navbar {
-    background: #868686;
+    background: #fff;
   }
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1;
@@ -91,7 +91,6 @@
     line-height: 40px;
     margin-right: 0px;
     display: block;
-    border-bottom: 1px solid #ededed33;
     border-radius: 0px;
   }
   .header_area .navbar .search {

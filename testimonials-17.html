@@ -36,17 +36,7 @@ tags:
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
-<section class="testimonal-img">
-  <div class="container">
-    <div class="row">
-      <div class="col-9">
-        <div class="page-title">
-          <h1>{{ page.title }}</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include hero.html %}
 {% include book-promo.html %}
 
 <div class="container">
@@ -55,14 +45,14 @@ tags:
       <h2 class="mb-3">Don't just take our word for it!</h2>
     </div>
   </div>
-  <div class="row mt-3">
+  <div class="row mt-3 mb-3">
     {% for post in site.posts %}
 
     <div class="col-md-4 col-xs-12">
-      <div class="card testimonial-card">
+      <div class="card testimonial-card mt-3">
         <img class="card-img-top" src="{{ post.image }}{{post.img-url}}" alt="{{post.title}}">
-        <div class="card-block">
-          <h4 class="card-title">{{ post.title }}</h4>
+        <div class="card-body">
+          <h4 class="card-title">{{ post.title | truncatewords: 10}}</h4>
           <p class="card-text">
             {{ post.date | date_to_long_string }}
           </p>
@@ -72,4 +62,7 @@ tags:
     </div>
 
     {% endfor %}
+
+
   </div>
+</div>

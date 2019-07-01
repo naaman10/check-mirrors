@@ -446,20 +446,20 @@
     font-size: 24px;
     margin-bottom: 0;
   }
-  input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #eeeeee;
-    padding: 12px;
+  .form-control {
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: $primary-font;
+    border-radius: 0px;
+    padding-left: 20px;
     &:focus {
-      outline: none;
       box-shadow: none;
+      outline: none;
     }
     @include placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: $primary-font;
+      color: $title-color;
+      font-size: 13px;
     }
   }
   .primary-btn {

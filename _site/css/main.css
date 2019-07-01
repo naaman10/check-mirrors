@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #002347; }
 
@@ -158,7 +158,7 @@ button:focus {
         display: inline-block; }
         @media (max-width: 991px) {
           .header_area .navbar .nav .nav-item .nav-link {
-            color: #ffffff; } }
+            color: black; } }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
@@ -571,7 +571,7 @@ button:focus {
     text-align: center;
     border-radius: 50px;
     background: #fdc632;
-    font-family: "Rubik", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     -webkit-transition: all 0.3s ease 0s;
@@ -803,34 +803,28 @@ button:focus {
   .register_form h3 {
     font-size: 24px;
     margin-bottom: 0; }
-  .register_form input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #eeeeee;
-    padding: 12px; }
-    .register_form input:focus {
-      outline: none;
-      box-shadow: none; }
-    .register_form input.placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Roboto", sans-serif; }
-    .register_form input:-moz-placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Roboto", sans-serif; }
-    .register_form input::-moz-placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Roboto", sans-serif; }
-    .register_form input::-webkit-input-placeholder {
-      color: #aaaaaa;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Roboto", sans-serif; }
+  .register_form .form-control {
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0px;
+    padding-left: 20px; }
+    .register_form .form-control:focus {
+      box-shadow: none;
+      outline: none; }
+    .register_form .form-control.placeholder {
+      color: #002347;
+      font-size: 13px; }
+    .register_form .form-control:-moz-placeholder {
+      color: #002347;
+      font-size: 13px; }
+    .register_form .form-control::-moz-placeholder {
+      color: #002347;
+      font-size: 13px; }
+    .register_form .form-control::-webkit-input-placeholder {
+      color: #002347;
+      font-size: 13px; }
   .register_form .primary-btn {
     width: 100%;
     border-radius: 0;
@@ -923,7 +917,7 @@ button:focus {
       color: #ffffff;
       padding-right: 15px;
       border-right: 2px solid #fff;
-      font-family: "Rubik", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 14px; }
       .single_event .event_details .date span {
         display: block;
@@ -2990,7 +2984,7 @@ h6 {
     position: absolute; }
 
   .header_area .navbar {
-    background: #868686; }
+    background: #fff; }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -3037,7 +3031,6 @@ h6 {
     line-height: 40px;
     margin-right: 0px;
     display: block;
-    border-bottom: 1px solid #ededed33;
     border-radius: 0px; }
 
   .header_area .navbar .search {
@@ -3240,7 +3233,7 @@ h6 {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #002347; }
+  background: #A9A9A9; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
@@ -3293,7 +3286,7 @@ h6 {
     margin-left: -60px;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: "Rubik", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     border: 0;
     -webkit-transition: all 0.3s ease 0s;
@@ -3346,7 +3339,8 @@ h6 {
 /*---------------------------------------------------- */
 @media screen and (max-width: 480px) {
   .nav-item .btn {
-    width: 100%; }
+    width: 100%;
+    margin: 5px; }
 
   .button {
     text-align: center; }
@@ -3387,7 +3381,7 @@ h1 .title-b {
 .title-a,
 .title-b {
   font-weight: 500;
-  -webkit-text-stroke: 1px #fff; }
+  -webkit-text-stroke: 1.5px #fff; }
 
 h2 .title-a,
 h2 .title-b {
@@ -3463,3 +3457,41 @@ ul.home-features {
 
 .home-features li {
   list-style: none; }
+
+.banner_area {
+  background-image: url("/img/home-new.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.clock_sec h3 {
+  color: white; }
+
+.footer-area .footer-bottom .footer-social {
+  text-align: left; }
+
+.footer-right {
+  text-align: right; }
+
+.namo, .namo h5 {
+  color: white; }
+
+.input-group-append, .input-group-text {
+  background-color: #FFC107;
+  border-color: #FFC107;
+  color: white; }
+
+.event-link {
+  color: #FFC107; }
+
+.footer-area.section_gap {
+  padding: 50px 0; }
+
+input.success {
+  background-color: white;
+  border: 1px solid green !important; }
+
+label.error {
+  width: 100%;
+  text-align: left;
+  font-size: 80%;
+  color: #dc3545; }

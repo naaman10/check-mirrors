@@ -49,6 +49,7 @@
 @media screen and (max-width: 480px) {
   .nav-item .btn {
     width: 100%;
+    margin: 5px;
   }
 
   .button {
@@ -114,7 +115,7 @@ h1 .title-b {
 .title-a,
 .title-b {
   font-weight: 500;
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 1.5px #fff;
 }
 
 h2 .title-a,
@@ -201,4 +202,42 @@ ul.home-features {
 }
 .home-features li {
   list-style: none;
+}
+.banner_area {
+  background-image: url('{{site.github.url}}/img/home-new.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clock_sec h3 {
+  color: white;
+}
+.footer-area .footer-bottom .footer-social {
+  text-align: left;
+}
+.footer-right {
+  text-align: right;
+}
+.namo, .namo h5 {
+  color: white;
+}
+.input-group-append, .input-group-text {
+  background-color: #FFC107;
+  border-color: #FFC107;
+  color: white;
+}
+.event-link {
+  color: #FFC107;
+}
+.footer-area.section_gap {
+  padding: 50px 0;
+}
+input.success {
+  background-color: white;
+  border: 1px solid green!important;
+}
+label.error {
+  width: 100%;
+  text-align: left;
+  font-size: 80%;
+  color: #dc3545;
 }
