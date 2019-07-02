@@ -241,3 +241,19 @@ label.error {
   font-size: 80%;
   color: #dc3545;
 }
+.not-found {
+    font-size: 92px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    transform: rotate(-7deg);
+    width: 150px;
+    height: 150px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
