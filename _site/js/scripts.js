@@ -1,8 +1,24 @@
-new WOW().init();
-$(document).ready(function(){
-	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-		$(this).toggleClass('open');
-	});
+// new WOW().init();
+$(document).ready(function() {
+  $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function() {
+    $(this).toggleClass('open');
+  });
+  $('.my-background-video').bgVideo({
+    fullScreen: false, // Sets the video to be fixed to the full window - your <video> and it's container should be direct descendents of the <body> tag
+    fadeIn: 500,
+    pauseAfter: 120,
+    fadeOnPause: false,
+    fadeOnEnd: true,
+    showPausePlay: true, // Show pause/play button
+    pausePlayXPos: 'right', // left|right|center
+    pausePlayYPos: 'top', // top|bottom|center
+    pausePlayXOffset: '15px', // pixels or percent from side - ignored if positioned center
+    pausePlayYOffset: '15px' // pixels or percent from top/bottom - ignored if positioned center
+  });
+  $('#footModal').on('click', function(event){
+    event.preventDefault();
+    $('#bookFormModal').modal('show');
+  });
 });
 
 var today, datepicker;
@@ -14,7 +30,6 @@ var today, datepicker;
 				width: '160',
 				format: 'dd/mm/yyyy'
     });
-
 
 
 //booking form submit
@@ -90,4 +105,61 @@ $("#bookFormSubmit").on('click', function(event) {
 		console.log("Done");
 	});
 }
+});
+
+  $("#instructorForm").validate({
+  errorClass: "error",
+  validClass: "success",
+  rules: {
+   name: "required",
+   number: "required",
+   email: {
+     required: true,
+     email: true
+   }
+ },
+ submitHandler: function() {
+   var instructName = $("#instructName").val();
+   var instructPhone = $("#instructPhone").val();
+   var instructEmail = $("#instructEmail").val();
+   var instructComments = $("#instructComments").val();
+   var instructForm = {
+     "fields": [
+       {
+         "name": "shortname",
+         "value": instructName
+       },
+       {
+         "name": "phone",
+         "value": instructPhone
+       },
+       {
+         "name": "email",
+         "value": instructEmail
+       },
+       {
+         "name": "comments",
+         "value": instructComments
+       }
+     ]
+   }
+     $.ajax({
+       url: 'https://api.hsforms.com/submissions/v3/integration/submit/5357756/ce0fde8d-53d8-4053-a64c-49fe1c36d070',
+       type: 'POST',
+       dataType: 'json',
+       headers: {
+         'Accept': 'application/json',
+         'Content-Type': 'application/json'
+       },
+ 			beforeSend:function(){
+     	},
+ 			success: function() {
+ 					$("#instructDone").replaceWith('<div class="row"><div class="col"><div class="completeMessage"><h2>Message received! 👍</h2><p>One of the team will be in touch soon.</p></div></div></div>');
+ 			},
+       data: JSON.stringify(instructForm)
+   })
+   .done(function() {
+ 		console.log("Done");
+ 	});
+ }
 });

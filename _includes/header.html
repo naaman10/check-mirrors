@@ -1,40 +1,54 @@
-<nav class="navbar navbar-expand-lg navbar-dark primary-color">
-    <a class="navbar-brand" href="{{ site.github.url }}"><h2><span class="title-a">check</span><span class="title-b">mirrors</span><span class="title-tagline"> School of Motoring</span></h2></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <div id="nav-icon3">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+<header class="header_area">
+  <div class="main_menu">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="{{ site.github.url }}"><h2><span class="title-a">check</span><span class="title-b">mirrors</span><span class="title-tagline"> School of Motoring</span></h2></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-bar"></span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse offset justify-content-end"
+          id="navbarSupportedContent"
+        >
+        <ul class="nav navbar-nav menu_nav ml-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.github.url }}">Home</a>
+          </li>
+          <li class="nav-item submenu dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ site.github.url }}/driving-lessons-york">Lessons in York</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/passplus">Pass Plus</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/testimonials/">Testimonials</a>
+            </div>
+          </li>
+          <li class="nav-item submenu dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Instructors
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ site.github.url }}/our-instructors/">Our Instructors</a>
+              <!-- <a class="dropdown-item" href="{{ site.github.url }}/our-trainees/">Our Trainees</a> -->
+              <a class="dropdown-item" href="{{ site.github.url }}/become-an-instructor/">Become an Instructor</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary btn-sm btn-responsive" data-toggle="modal" data-target="#bookFormModal">Book Now</button>
+          </li>
+        </ul>
         </div>
-    </button>
-      <div class="collapse navbar-collapse" id="basicExampleNav">
-      <ul class="navbar-nav justify-content-end align-items-center">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.url }}">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="{{ site.github.url }}/driving-lessons-york">Lessons in York</a>
-            <a class="dropdown-item" href="{{ site.github.url }}/passplus">Pass Plus</a>
-            <a class="dropdown-item" href="{{ site.github.url }}/testimonials/">Testimonials</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Instructors
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="{{ site.github.url }}/our-instructors/">Our Instructors</a>
-            <!-- <a class="dropdown-item" href="{{ site.github.url }}/our-trainees/">Our Trainees</a> -->
-            <a class="dropdown-item" href="{{ site.github.url }}/become-an-instructor/">Become an Instructor</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn-primary btn-sm nav-link btn-responsive" data-toggle="modal" data-target="#bookFormModal">Book Now</button>
-        </li>
-      </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
+  </div>
+</header>
