@@ -15,6 +15,10 @@ $(document).ready(function() {
     pausePlayXOffset: '15px', // pixels or percent from side - ignored if positioned center
     pausePlayYOffset: '15px' // pixels or percent from top/bottom - ignored if positioned center
   });
+  $('#footModal').on('click', function(event){
+    event.preventDefault();
+    $('#bookFormModal').modal('show');
+  });
 });
 
 var today, datepicker;
