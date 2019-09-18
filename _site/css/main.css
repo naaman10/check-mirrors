@@ -3423,6 +3423,9 @@ h2 .title-b {
   color: #fdc632;
   cursor: pointer; }
 
+.nav-link i.fas.fa-caret-down {
+  margin-left: 10px; }
+
 .home_banner_area {
   background-image: url("/img/home-new2.jpg");
   color: white; }
