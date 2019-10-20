@@ -25,10 +25,10 @@ description: York driving instructors, checkmirrors, is a School of Motoring bas
 pricePerLesson: "£30"
 priceForTen: "£285"
 passPlusPrice: "£220"
-baseurl:
+baseurl: 
 url: https://www.checkmirrors.co.uk
 markdown: kramdown
-year:
-pass-date:
+year: 
+pass-date: 
 include:
 - ".htaccess"
