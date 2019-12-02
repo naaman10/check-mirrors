@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>checkmirrors</title>
-    <description>York driving instructors, checkmirrors, is a School of Motoring based in York with over 14 years experience. Book today from just £28 per hour or £270 for 10 lessons. We also have Pass Plus options available in York from £220.</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Nov 2019 08:54:46 +0000</pubDate>
-    <lastBuildDate>Wed, 27 Nov 2019 08:54:46 +0000</lastBuildDate>
+    <description>York driving instructors, checkmirrors, is a School of Motoring based in York with over 14 years experience. Book today from just £30 per hour or £285 for 10 lessons. We also have Pass Plus options available in York from £220.</description>
+    <link>https://www.checkmirrors.co.uk/</link>
+    <atom:link href="https://www.checkmirrors.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Dec 2019 09:12:46 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Dec 2019 09:12:46 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
