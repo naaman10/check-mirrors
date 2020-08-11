@@ -612,8 +612,8 @@
       .owl-dot {
         height: 10px;
         width: 10px;
-        background: #d8d8d8;
         border-radius: 17px;
+        background-color: #002347;
         display: inline-block;
         margin-right: 10px;
         @include transition();
@@ -635,11 +635,9 @@
   }
 }
 .testi_item {
-  padding: 50px 55px;
   margin-bottom: 200px;
   margin-left: 10px;
   margin: 0px 10px 80px;
-  box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3);
   @include transition();
   @media (max-width: 991px) {
     margin-bottom: 0px;
@@ -666,9 +664,6 @@
     p {
       margin-bottom: 0px;
     }
-  }
-  &:hover {
-    box-shadow: 0px 10px 30px 0px rgba($title-color, 0.1);
   }
 }
 /* End Testimonial Area css

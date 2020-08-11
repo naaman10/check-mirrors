@@ -485,13 +485,13 @@ button:focus { outline: none; box-shadow: none; }
 ============================================================================================ */
 .testimonial_area .owl-carousel .owl-dots { display: block !important; text-align: center; }
 
-.testimonial_area .owl-carousel .owl-dots .owl-dot { height: 10px; width: 10px; background: #d8d8d8; border-radius: 17px; display: inline-block; margin-right: 10px; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
+.testimonial_area .owl-carousel .owl-dots .owl-dot { height: 10px; width: 10px; border-radius: 17px; background-color: #002347; display: inline-block; margin-right: 10px; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
 
 .testimonial_area .owl-carousel .owl-dots .owl-dot.active { height: 12px; width: 12px; background: #fdc632; }
 
 @media (max-width: 991px) { .testimonial_area .owl-carousel .owl-dots { display: none !important; } }
 
-.testi_item { padding: 50px 55px; margin-bottom: 200px; margin-left: 10px; margin: 0px 10px 80px; box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3); -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
+.testi_item { margin-bottom: 200px; margin-left: 10px; margin: 0px 10px 80px; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
 
 @media (max-width: 991px) { .testi_item { margin-bottom: 0px; } }
 
@@ -506,8 +506,6 @@ button:focus { outline: none; box-shadow: none; }
 .testi_item .testi_text h4 { font-size: 20px; margin-bottom: 15px; text-transform: capitalize; }
 
 .testi_item .testi_text p { margin-bottom: 0px; }
-
-.testi_item:hover { box-shadow: 0px 10px 30px 0px rgba(0, 35, 71, 0.1); }
 
 /* End Testimonial Area css
 ============================================================================================ */
@@ -1428,8 +1426,6 @@ h6 { font-size: 14px; }
 @media (max-width: 991px) { .footer-area .footer-bottom .footer-social { text-align: left; margin-top: 20px; } }
 
 /*---------------------------------------------------- */
-@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } }
-
 /* Custom CSS */
 .title-a, a .title-a { color: #F41822; }
 
@@ -1444,6 +1440,10 @@ h2 .title-a, h2 .title-b { font-size: 34px; letter-spacing: 2px; font-family: "R
 h1 span.title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png"); background-size: 23px 26px; background-repeat: no-repeat; background-position-x: 50px; background-position-y: 14px; }
 
 h2 .title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png"); background-size: 23px 25px; background-repeat: no-repeat; background-position-x: 47px; background-position-y: 10px; }
+
+.mb-9 { margin-bottom: 40px; }
+
+.img-fluid { border-radius: 12px; }
 
 .header_area .title-tagline { color: white; font-size: 20px; font-family: "Roboto", sans-serif; font-weight: 300; }
 
@@ -1460,6 +1460,22 @@ h2 .title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png
 .home_banner_area { background-image: url("/img/home-new2.jpg"); color: white; }
 
 .home_banner_area:after { position: absolute; content: ""; left: 0; bottom: 0; right: 0; top: 0; background: rgba(0, 0, 0, 0.4); }
+
+.clear-bg { background-color: #F7F9F8; }
+
+.card { background-color: white; border-radius: 12px; box-shadow: 0 6px 18px 0 rgba(9, 32, 76, 0.035); border: none; }
+
+.card .card-body { padding: 12px; }
+
+.card .card-img-top { padding: 12px; }
+
+.card .card-img-top img { border-radius: 12px; width: 100%; }
+
+.single_feature { border-radius: 12px; }
+
+.about-image { border-radius: 12px; width: 100%; }
+
+.about_area .card-body { padding: 40px; }
 
 .home_banner_area .banner_inner .banner_content h3, .home_banner_area .banner_inner .banner_content p { color: white; }
 
@@ -1500,5 +1516,7 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 .youtube-video { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
 
 .youtube-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } }
 
 /*# sourceMappingURL=main.css.map */

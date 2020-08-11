@@ -96,17 +96,24 @@
       $(".testi_slider").owlCarousel({
         loop: true,
         margin: 30,
-        items: 2,
+        items: 1,
         autoplay: 2500,
         smartSpeed: 2500,
-        dots: true,
+        dots: false,
         responsiveClass: true,
+        responsiveBaseElement: "body",
         responsive: {
           0: {
             items: 1
           },
-          991: {
+          480: {
+            items: 1
+          },
+          568: {
             items: 2
+          },
+          991: {
+            items: 3
           }
         }
       });
