@@ -1,0 +1,16 @@
+---
+label: Testimonial
+hide_body: false
+fields:
+- type: textarea
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: img-url
+  label: img-url
+- type: number
+  name: year
+  label: year
