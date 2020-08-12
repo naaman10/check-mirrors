@@ -42,11 +42,6 @@ fields:
       config:
         required: false
       label: Card Title
-    - name: card_text
-      type: text
-      config:
-        required: false
-      label: Card Text
     - name: card_button
       type: field_group
       config: {}
@@ -69,6 +64,15 @@ fields:
             path: 
         label: Button Link
       label: Card Button
+    - name: card_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Card Text
     config:
       min: 
       max: 
