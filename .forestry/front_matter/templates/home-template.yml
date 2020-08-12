@@ -75,3 +75,5 @@ fields:
       labelField: 
     label: Section Cards
   label: Services Section
+pages:
+- index.html
