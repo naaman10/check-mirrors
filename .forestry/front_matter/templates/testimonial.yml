@@ -1,19 +1,31 @@
 ---
----
-
----
 label: Testimonial
-hide_body: false
+hide_body: true
 fields:
 - type: textarea
   name: title
-  label: title
+  label: Text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    max: 180
 - type: datetime
   name: date
   label: date
 - type: file
   name: img-url
   label: img-url
+- name: pass_date
+  type: datetime
+  label: Pass Date
+  description: When did this learner pass?
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: DD/MM/YYYY
 - type: number
   name: year
   label: year
