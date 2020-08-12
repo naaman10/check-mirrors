@@ -30,7 +30,7 @@ services_section:
     card_text: |-
       * Flexible times to suit
       * Accredited instructors
-      * Only {{ site.pricePerLesson }} per lesson
+      * Only £28 per lesson
     card_button:
       button_link: "/driving-lessons-york/"
       button_text: Learn More
@@ -83,69 +83,31 @@ services_section:
     <div class="row justify-content-center">
       <div class="col-lg-5">
         <div class="text-center mb-5">
-          <h2 class="mb-3">Our Services</h2>
+          <h2 class="mb-3">{{ page.services_section.section_title }}</h2>
           <p>
-            Learning to drive couldn't be easier with checkmirrors
+            {{ page.services_section.section_sub-title }}
           </p>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
+        {% for section_card in page.services_section.section_cards %}
         <div class="col-md-4 col-xs-12">
           <div class="card mb-3">
             <div class="card-img-top">
-              <img src="{{ site.github.url }}/img/card-1.jpg" alt="Our fleet">
+              <img src="{{ site.github.url }}{{ section_card.card_image }}" alt="Our fleet">
             </div>
             <div class="card-body">
-              <h4 class="card-title"><a>Learn to Drive</a></h4>
+              <h4 class="card-title"><a>{{ section_card.card_title }}</a></h4>
               <p class="card-text">
-                <ul>
-                  <li>Flexible times to suit</li>
-                  <li>Accreditted instructors</li>
-                  <li>Only {{ site.pricePerLesson }} per lesson</li>
-                </ul>
+                {{ section_card.card_text | markdownify }}
               </p>
               <a href="{{ site.github.url }}/driving-lessons-york/" class="btn btn-primary btn-block">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-xs-12">
-          <div class="card mb-3">
-            <div class="card-img-top">
-              <img src="{{ site.github.url }}/img/card-2.jpeg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">Pass Plus</h4>
-              <p class="card-text">
-                <ul>
-                  <li>Excellent for new drivers</li>
-                  <li>Lower your insurance premium</li>
-                  <li>Safe driving for life</li>
-                </ul>
-              </p>
-              <a href="{{ site.github.url }}/passplus" class="btn btn-primary btn-block">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-xs-12">
-          <div class="card mb-3">
-            <div class="card-img-top">
-              <img src="{{ site.github.url }}/img/card-3.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">Become an Instructor</h4>
-              <p class="card-text">
-                <ul>
-                  <li>Flexible working hours</li>
-                  <li>self-employment</li>
-                  <li>regular pupil referrals</li>
-                </ul>
-              </p>
-              <a href="{{ site.github.url }}/become-an-instructor/" class="btn btn-primary btn-block">Learn more</a>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
