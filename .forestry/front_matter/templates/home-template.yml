@@ -8,11 +8,7 @@ fields:
 - type: text
   name: layout
   label: layout
-- name: meta_tags
-  type: tag_list
-  default: []
-  label: Meta Tags
-- type: list
+- type: tag_list
   name: tags
   label: tags
 - name: services_section
@@ -67,9 +63,9 @@ fields:
         label: Button Link
       label: Card Button
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Section Cards
   label: Services Section
 pages:
