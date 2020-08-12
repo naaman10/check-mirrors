@@ -438,6 +438,7 @@
 .register_form {
   background: #fff;
   text-align: center;
+  border-radius: 12px;
   padding: 40px;
   @media (max-width: 991px) {
     margin-top: 60px;
@@ -468,7 +469,9 @@
     border: none;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 16px;
     margin-top: 30px;
+    border-radius: 12px;
   }
 }
 

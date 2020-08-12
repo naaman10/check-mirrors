@@ -57,7 +57,7 @@ button:focus { outline: none; box-shadow: none; }
 
 /* Main Title Area css
 ============================================================================================ */
-.main_title { text-align: center; margin-bottom: 85px; }
+.main_title { text-align: center; }
 
 @media (max-width: 991px) { .main_title { margin-bottom: 40px; } }
 
@@ -399,7 +399,7 @@ button:focus { outline: none; box-shadow: none; }
 
 @media (max-width: 1199px) { .clock_sec .clockinner h1 { display: block; } }
 
-.register_form { background: #fff; text-align: center; padding: 40px; }
+.register_form { background: #fff; text-align: center; border-radius: 12px; padding: 40px; }
 
 @media (max-width: 991px) { .register_form { margin-top: 60px; } }
 
@@ -417,7 +417,7 @@ button:focus { outline: none; box-shadow: none; }
 
 .register_form .form-control::-webkit-input-placeholder { color: #002347; font-size: 13px; }
 
-.register_form .primary-btn { width: 100%; border-radius: 0; border: none; text-transform: uppercase; font-weight: 600; margin-top: 30px; }
+.register_form .primary-btn { width: 100%; border-radius: 0; border: none; text-transform: uppercase; font-weight: 600; font-size: 16px; margin-top: 30px; border-radius: 12px; }
 
 /* End Registration Area css
 ============================================================================================ */
@@ -1441,6 +1441,12 @@ h1 span.title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes
 
 h2 .title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png"); background-size: 23px 25px; background-repeat: no-repeat; background-position-x: 47px; background-position-y: 10px; }
 
+section h2 { font-size: 36px; }
+
+.registration_area h2, .registration_area h3 { color: white; }
+
+.registration_area .register_form h2, .registration_area .register_form h3 { color: #002347; }
+
 .mb-9 { margin-bottom: 40px; }
 
 .img-fluid { border-radius: 12px; }
@@ -1467,11 +1473,11 @@ h2 .title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png
 
 .card .card-body { padding: 12px; }
 
-.card .card-img-top { padding: 12px; }
+.card .card-img-top, .card .card-img { padding: 12px; }
 
-.card .card-img-top img { border-radius: 12px; width: 100%; }
+.card .card-img-top img, .card .card-img img { border-radius: 12px; width: 100%; }
 
-.single_feature { border-radius: 12px; }
+.single_feature, .home-jmbo { border-radius: 12px; }
 
 .about-image { border-radius: 12px; width: 100%; }
 
@@ -1517,6 +1523,8 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 
 .youtube-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } }
+@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } }
+
+@media screen and (max-width: 991px) { .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } .header_area .navbar { border-radius: 12px; margin: 5px; box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); } .header_area.navbar_fixed .main_menu { box-shadow: none; background-color: transparent; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -108,6 +108,22 @@ h2 .title-b {
   background-position-y: 10px;
 }
 
+section h2 {
+  font-size: 36px;
+}
+
+.registration_area {
+  h2, h3 {
+    color: white;
+  }
+  .register_form {
+    h2, h3 {
+      color: #002347;
+    }
+  }
+}
+
+
 .mb-9 {
   margin-bottom: 40px;
 }
@@ -163,7 +179,7 @@ h2 .title-b {
   .card-body {
     padding: 12px;
   }
-  .card-img-top {
+  .card-img-top,.card-img {
     padding: 12px;
     img {
       border-radius: 12px;
@@ -171,7 +187,8 @@ h2 .title-b {
     }
   }
 }
-.single_feature {
+
+.single_feature,.home-jmbo {
   border-radius: 12px;
 }
 .about-image {
@@ -310,8 +327,19 @@ label.error {
     margin: 0;
     height: 100%;
   }
+}
+@media screen and (max-width: 991px) {
   .navbar-brand .title-a,  .navbar-brand .title-b {
     -webkit-text-stroke: 0;
     font-weight: 400;
+  }
+  .header_area .navbar {
+    border-radius: 12px;
+    margin: 5px;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  }
+  .header_area.navbar_fixed .main_menu {
+    box-shadow: none;
+    background-color: transparent;
   }
 }
