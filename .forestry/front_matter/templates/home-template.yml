@@ -63,10 +63,47 @@ fields:
         label: Button Link
       label: Card Button
     config:
-      min:
-      max:
-      labelField:
+      min: 
+      max: 
+      labelField: 
     label: Section Cards
   label: Services Section
+- name: testimonial_section
+  type: field_group
+  config: {}
+  fields:
+  - name: section_title
+    type: text
+    config:
+      required: true
+    label: Section Title
+  - name: testimonials
+    type: field_group_list
+    fields:
+    - name: testimonial_image
+      type: file
+      config:
+        maxSize: 64
+      label: Testimonial Image
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+    - name: testimonial_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Testimonial Text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Testimonials
+  label: Testimonial Section
 pages:
 - index.html
