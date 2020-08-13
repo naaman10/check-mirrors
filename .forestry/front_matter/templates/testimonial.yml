@@ -12,9 +12,6 @@ fields:
 - type: file
   name: image
   label: Image
-- type: text
-  name: Title
-  label: Title
 - type: number
   name: year
   label: year
