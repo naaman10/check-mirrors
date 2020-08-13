@@ -56,14 +56,15 @@ tags:
     <div class="col-md-4 col-xs-12">
       <div class="card testimonial-card mt-3">
         <div class="card-img-top">
-          <img src="{{ post.image }}{{post.img-url}}" alt="{{post.title}}">
+          <img src="{{ post.image }}" alt="{{post.title}}">
         </div>
         <div class="card-body">
           <h4 class="card-title">{{ post.title | truncatewords: 10}}</h4>
           <p class="card-text">
             {{ post.date | date_to_long_string }}
           </p>
-          <div class="fb-share-button" data-href="{{ site.github.url}}/{{ post.url }}" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+          <a href="{{ site.github.url }}{{ post.url }}">open</a>
+          <div class="fb-share-button" data-href="{{ site.github.url }}{{ post.url }}" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
         </div>
       </div>
     </div>

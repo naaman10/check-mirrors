@@ -5,10 +5,16 @@ display_field: Title
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: file
   name: image
-  label: image
+  label: Image
+- type: text
+  name: Title
+  label: Title
+- type: number
+  name: year
+  label: year
