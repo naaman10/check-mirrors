@@ -12,9 +12,3 @@ fields:
 - type: file
   name: image
   label: image
-- type: datetime
-  name: Date
-  label: Date
-- type: number
-  name: year
-  label: year
