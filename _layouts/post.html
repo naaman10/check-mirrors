@@ -1,7 +1,22 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<section class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="banner_content text-center">
+            <h2>🎉 Congratulations 🎉</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<article class="post clear-bg" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 mt-b">
@@ -9,7 +24,7 @@ layout: default
           <div class="row">
             <div class="col-sm-12 col-md-4">
               <div class="card-img-top">
-                <img src="{{ page.image }}" class="card-img-top" />
+                <img src="{{ page.image }}" />
               </div>
             </div>
             <div class="col-sm-12 col-md-8">
@@ -29,3 +44,5 @@ layout: default
       </div>
     </div>
 </article>
+
+{% include book-promo-dark.html %}
