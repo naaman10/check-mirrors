@@ -1,0 +1,22 @@
+---
+label: Testimonial
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: Title
+  label: Title
+- type: datetime
+  name: Date
+  label: Date
+- type: number
+  name: year
+  label: year
