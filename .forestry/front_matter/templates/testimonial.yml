@@ -12,9 +12,6 @@ fields:
 - type: file
   name: image
   label: image
-- type: text
-  name: Title
-  label: Title
 - type: datetime
   name: Date
   label: Date
