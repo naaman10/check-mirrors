@@ -169,65 +169,27 @@ testimonial_section:
     <div class="row justify-content-center">
       <div class="col-lg-5">
         <div class="text-center mb-5">
-          <h2 class="mb-3">What our students say</h2>
+          <h2 class="mb-3">{{ page.testimonial_section.section_title }}</h2>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="testi_slider owl-carousel">
+        {% for testimonial in page.testimonial_section.testimonials  %}
         <div class="testi_item">
           <div class="card mb-3">
             <div class="card-img-top">
-              <img class="" src="{{site.github.url}}/uploads/adam-walsh.jpg" alt="Card image cap">
+              <img class="" src="{{site.github.url}}{{ testimonial.testimonial_image }}" alt="{{ testimonial.name }} testimonial image">
             </div>
             <div class="card-body">
-              <h4 class="card-title">Adam Welsh</h4>
+              <h4 class="card-title">{{ testimonial.name }}</h4>
               <p class="card-text">
-                “Thanks to Rob from Checkmirrors I passed first time with only 4 minors. Rob is a great driving instructor, easy to get along with, I’d definitely recommend. Thanks again Rob"
+                {{ testimonial.testimonial_text }}
               </p>
             </div>
           </div>
         </div>
-        <div class="testi_item">
-          <div class="card mb-3">
-            <div class="card-img-top">
-              <img class="" src="{{site.github.url}}/uploads/luke-pass.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">Luke Swainsbury</h4>
-              <p class="card-text">
-                “Passed first time, massive thank you to Rob at Checkmirrors for all the time and effort you put into me, extremely recommend.
-                Thanks again”
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="testi_item">
-          <div class="card mb-3">
-            <div class="card-img-top">
-              <img class="" src="{{site.github.url}}/uploads/testimonial2018.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">Beth Loseby</h4>
-              <p class="card-text">
-                “Couldn’t recommend Rob from Checkmirrors driving school enough, after struggling with driving for months before taking lessons with him, I noticed a change straight away and passed first time!”
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="testi_item">
-          <div class="card mb-3">
-            <div class="card-img-top">
-              <img class="" src="{{site.github.url}}/img/testimonial-images/bridie-murray.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">Bridie Murray</h4>
-              <p class="card-text">
-                "Sarah has been fantastic. After going through at least 5 other different instructors, I instantly knew Sarah was a keeper! Would 100% recommend, lessons were fun and stress free. Sarah was very good at keeping me calm as I was a nervous driver."
-              </p>
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </div>
     <div class="row">
