@@ -1,7 +1,0 @@
----
-title: ''
-date: 
-image: ''
-year: 
-
----
