@@ -1427,6 +1427,8 @@ h6 { font-size: 14px; }
 
 /*---------------------------------------------------- */
 /* Custom CSS */
+body { background-color: #F7F9F8; }
+
 .title-a, a .title-a { color: #F41822; }
 
 .title-b, a .title-b { color: #0A9444; }
@@ -1477,6 +1479,16 @@ section h2 { font-size: 36px; }
 
 .card .card-img-top img, .card .card-img img { border-radius: 12px; width: 100%; }
 
+.accordion { box-shadow: 0 6px 18px 0 rgba(9, 32, 76, 0.035); }
+
+.accordion .btn { white-space: initial; }
+
+.accordion .card-header { background-color: white; }
+
+.accordion .card-header:first-child { border-radius: 12px 12px 0 0; }
+
+.accordion .card-header:last-child { border-radius: 0 0 12px 12px; }
+
 .single_feature, .home-jmbo { border-radius: 12px; }
 
 .about-image { border-radius: 12px; width: 100%; }
@@ -1489,7 +1501,11 @@ section h2 { font-size: 36px; }
 
 .btn-primary:hover { background-color: #FFC107 !important; border-color: #FFC107 !important; }
 
+.btn-primary:disabled:hover { background-color: #388E3C !important; border-color: #388E3C !important; }
+
 .btn-secondary { background-color: #FFC107 !important; border-color: #FFC107 !important; }
+
+.alert-covid { border-radius: 12px; }
 
 ul.home-features { padding-left: 0px !important; }
 

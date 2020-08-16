@@ -85,6 +85,19 @@ testimonial_section:
             </div>
             {% include fb-share.html %}
           </div>
+          <div class="covid-status m-3 text-center justify-content-center">
+            {% if site.corona_status == "open" %}
+            <div class="alert alert-covid alert-success d-inline-block" role="alert">
+              COVID-19 Status: We are open <i class="fas fa-check-circle"></i> <a class="btn btn-link" href="{{site.github.url}}/covid-19-update/">Find out more</a>
+            </div>
+            {% elsif site.corona_status == "closed" %}
+            <div class="alert alert-covid alert-warning d-inline-block" role="alert">
+              COVID-19 Status: We are closed <i class="fas fa-times"></i> <a class="btn btn-link" href="{{site.github.url}}/covid-19-update/">Find out more</a>
+            </div>
+
+            {% else %}
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>

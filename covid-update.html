@@ -1,0 +1,128 @@
+---
+title: COVID-19 Update
+permalink: "/covid-19-update/"
+layout: default
+tags:
+- driving
+- instructor
+- lessons
+- york
+- school
+- motoring
+- learn
+- drive
+- covid-19
+- COVID
+- corona
+- virus
+location: York
+intro_section:
+  title: All systems go
+  sub-title: Here you can find the latest information on how learning to drive with checkmirrors has changed due to Corona Virus.
+updates_section:
+  section_cards:
+  - card_image: "/uploads/operational.png"
+    card_title: We are open
+    card_text: |-
+      checkmirrors is still open for lessons, this will be continuously reviewed as per government guidance.
+  - card_image: "/uploads/facemask.png"
+    card_title: Wear a mask
+    card_text: |-
+      To ensure the safety of both students and our instructors, wearing a face mask is required at all times.
+  - card_image: "/uploads/clean-cars.png"
+    card_title: Clean cars
+    card_text: |-
+      A further step to make learning to drive safer with checkmirrors, we now clean each of our cars thoroughly between lessons.
+  - card_image: "/uploads/sanitiser.png"
+    card_title: Clean hands
+    card_text: |-
+      We provide hand sanitiser in all of our cars and kindly request students to use the hand sanitiser before each lesson.
+faq_section:
+  title: FAQs
+  sub-title: Here are some of our most frequently asked Questions.
+  questions:
+  - question_text: Are you still open?
+    answer_text: |-
+      Yes, all of our driving instructors are still providing lessons. We review this on a regular basis in accordance with government guidelines.
+  - question_text: Are you accepting new students?
+    answer_text: |-
+      Yes, we are still be accepting new students. We will ask you some questions covid related questions prior to your first lesson to make sure you're feeling well and able. Please [contact us here](https://www.checkmirrors.co.uk/book-now) or via our [Facebook page](https://www.facebook.com/checkmirrors)
+  - question_text: What do you do to protect against the virus?
+    answer_text: |-
+      Here at checkmirrors we have several procedures in place to protect our students and driving instructors alike, which we review regularly in line with government guidance.
+      * All students and driving instructors must wear a face mask or covering at all times
+      * All cars are thoroughly cleaned between each lesson
+      * Hand sanitiser is provided in all of our cars
+---
+
+<!-- Page Intro -->
+
+{% include hero.html %}
+
+<section class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <div class="text-center my-5">
+        <h2 class="mb-3">{{ page.intro_section.title }}</h2>
+        <p>{{ page.intro_section.sub-title }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row mb-3">
+    {% for section_card in page.updates_section.section_cards %}
+    <div class="col-md-3 col-xs-12">
+      <div class="card mb-3">
+        <div class="card-img-top">
+          <img src="{{ site.github.url }}{{ section_card.card_image }}" alt="Our fleet">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title"><a>{{ section_card.card_title }}</a></h4>
+          <p class="card-text">
+            {{ section_card.card_text | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% include book-promo-dark.html %}
+
+<!-- FAQ Section -->
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <div class="text-center my-5">
+        <h2 class="mb-3">{{ page.faq_section.title }}</h2>
+        <p>{{ page.faq_section.sub-title }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="accordion mb-5" id="faq_section">
+        {% for question in page.faq_section.questions %}
+        <div class="card">
+          <div class="card-header" id="heading{{forloop.index}}">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#question{{forloop.index}}" {% if forloop.index == 1 %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="question{{forloop.index}}">
+                {{ question.question_text }}
+              </button>
+            </h2>
+          </div>
+
+          <div id="question{{forloop.index}}" {% if forloop.index == 1 %} class="collapse show" {% else %} class="collapse" {% endif %} aria-labelledby="headingOne{{forloop.index}}" data-parent="#faq_section">
+            <div class="card-body">
+              {{ question.answer_text | markdownify }}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

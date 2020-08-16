@@ -63,6 +63,9 @@ $background-grey: #F7F9F8;
 $font-header: 'Roboto', sans-serif;
 $font-body: 'Open Sans', sans-serif;
 /* Custom CSS */
+body {
+  background-color: $background-grey;
+}
 .title-a,
 a .title-a {
   color: #F41822;
@@ -187,7 +190,21 @@ section h2 {
     }
   }
 }
-
+.accordion {
+  box-shadow: 0 6px 18px 0 rgba(9, 32, 76, 0.035);
+  .btn {
+    white-space: initial;
+  }
+  .card-header {
+    background-color: white;
+  }
+  .card-header:first-child {
+    border-radius: 12px 12px 0 0;
+  }
+  .card-header:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+}
 .single_feature,.home-jmbo {
   border-radius: 12px;
 }
@@ -212,10 +229,17 @@ section h2 {
   background-color: #FFC107 !important;
   border-color: #FFC107 !important;
 }
+.btn-primary:disabled:hover {
+  background-color: #388E3C !important;
+  border-color: #388E3C !important;
+}
 
 .btn-secondary {
   background-color: #FFC107 !important;
   border-color: #FFC107 !important;
+}
+.alert-covid {
+  border-radius: 12px;
 }
 ul.home-features {
   padding-left: 0px!important;
