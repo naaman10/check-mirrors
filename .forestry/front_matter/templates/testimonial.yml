@@ -1,7 +1,6 @@
 ---
 label: Testimonial
-hide_body: true
-display_field: Title
+hide_body: false
 fields:
 - type: text
   name: title
