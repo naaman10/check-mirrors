@@ -251,6 +251,9 @@ ul.home-features {
   background-image: url('{{site.github.url}}/img/home-new.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  h1 {
+    font-size: 45px;
+  }
 }
 .clock_sec h3 {
   color: white;

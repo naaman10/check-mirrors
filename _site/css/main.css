@@ -1513,6 +1513,8 @@ ul.home-features { padding-left: 0px !important; }
 
 .banner_area { background-image: url("/img/home-new.jpeg"); background-size: cover; background-repeat: no-repeat; }
 
+.banner_area h1 { font-size: 45px; }
+
 .clock_sec h3 { color: white; }
 
 .footer-area .footer-bottom .footer-social { text-align: left; }
