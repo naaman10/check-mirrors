@@ -7,30 +7,15 @@
   {% include favicon.html %}
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{%if page.tags %}{{ page.tags | join: ', ' | escape }}{% else %}{{ site.tags | join: ', ' | escape }}{% endif %}"/>
-
   {% include google.html %}
-  <!-- Google Tag Manager -->
-  <script src="https://use.fontawesome.com/a7c1956c8a.js"></script>
-
-
+  <script src="https://kit.fontawesome.com/c26d8f910e.js" crossorigin="anonymous"></script>
     {% include normal-meta.html %}
-
-
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
   <link rel="stylesheet" href="{{ site.github.url }}/css/animate.css" type="text/css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Anton|Roboto:500" rel="stylesheet" type="text/css">
-  <!-- Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{site.github.url }}/css/flaticon.css" />
-  <link rel="stylesheet" href="{{site.github.url }}/css/themify-icons.css" />
   <link rel="stylesheet" href="{{ site.github.url }}/css/owl-carousel/owl.carousel.min.css" />
-  <link rel="stylesheet" href="{{ site.github.url }}/css/nice-select/css/nice-select.css" />
   <link rel="stylesheet" href="{{ site.github.url }}/css/main.css" type="text/css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
