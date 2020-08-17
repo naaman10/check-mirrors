@@ -1517,10 +1517,6 @@ ul.home-features { padding-left: 0px !important; }
 
 .clock_sec h3 { color: white; }
 
-.footer-area .footer-bottom .footer-social { text-align: left; }
-
-.footer-right { text-align: right; }
-
 .namo, .namo h5 { color: white; }
 
 .input-group-append, .input-group-text { background-color: #FFC107; border-color: #FFC107; color: white; }
@@ -1542,6 +1538,10 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 .youtube-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 @media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } }
+
+.pride img { width: 80px; }
+
+.pride span { display: block; margin-top: 10px; }
 
 @media screen and (max-width: 991px) { .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } .header_area .navbar { border-radius: 12px; margin: 5px; box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); } .header_area.navbar_fixed .main_menu { box-shadow: none; background-color: transparent; } }
 

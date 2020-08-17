@@ -258,12 +258,6 @@ ul.home-features {
 .clock_sec h3 {
   color: white;
 }
-.footer-area .footer-bottom .footer-social {
-  text-align: left;
-}
-.footer-right {
-  text-align: right;
-}
 .namo, .namo h5 {
   color: white;
 }
@@ -353,6 +347,15 @@ label.error {
     width: 100%;
     margin: 0;
     height: 100%;
+  }
+}
+.pride {
+  img {
+    width: 80px;
+  }
+  span {
+    display: block;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 991px) {
