@@ -1483,6 +1483,8 @@ section h2 { font-size: 36px; }
 
 .testimonial-card .card-title { height: 42px; }
 
+.testimonial-card .card-title .card-title-link { color: #002347; }
+
 .accordion { box-shadow: 0 6px 18px 0 rgba(9, 32, 76, 0.035); }
 
 .accordion .btn { white-space: initial; }
@@ -1548,5 +1550,3 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 .pride span { display: block; margin-top: 10px; }
 
 @media screen and (max-width: 991px) { .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } .header_area .navbar { border-radius: 12px; margin: 5px; box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); } .header_area.navbar_fixed .main_menu { box-shadow: none; background-color: transparent; } }
-
-/*# sourceMappingURL=main.css.map */
