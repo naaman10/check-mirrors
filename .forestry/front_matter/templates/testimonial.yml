@@ -17,6 +17,13 @@ fields:
 - type: number
   name: year
   label: year
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: post
 pages:
 - _posts/2017-12-16-rachel-mccarthy.md
 - _posts/2020-08-11-leon-andrews-york.md
