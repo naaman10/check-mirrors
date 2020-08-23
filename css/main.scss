@@ -190,6 +190,22 @@ section h2 {
     }
   }
 }
+
+.testimonial-card {
+  .card-img-top {
+    img {
+      overflow: hidden;
+      object-fit: cover;
+      height: auto;
+      min-height: 230px;
+      max-height: 230px;
+    }
+  }
+  .card-title {
+    height: 42px;
+  }
+}
+
 .accordion {
   box-shadow: 0 6px 18px 0 rgba(9, 32, 76, 0.035);
   .btn {
