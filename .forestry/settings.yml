@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: _data/posts.csv
-  label: Data
+  label: Posts
 - type: jekyll-pages
   label: Pages
   create: all
