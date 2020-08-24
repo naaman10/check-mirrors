@@ -5,9 +5,8 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: _data/posts.cv
+  path: _data/posts.csv
   label: Data
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
