@@ -21,17 +21,17 @@
           class="collapse navbar-collapse offset justify-content-end"
           id="navbarSupportedContent"
         >
-        <ul class="nav navbar-nav menu_nav ml-auto align-items-center">
+        <ul class="nav navbar-nav menu_nav ml-auto align-items-center" aria-label="navigation menu">
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.github.url }}">Home</a>
+            <a class="nav-link" href="{{ site.github.url }}" aria-label="Home" tabindex="0">Home</a>
           </li>
           <li class="nav-item submenu dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive <i class="fas fa-caret-down"></i></a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive <i class="fas fa-caret-down" tabindex="1"></i></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="{{ site.github.url }}/driving-lessons-york">Lessons in York</a>
-              <a class="dropdown-item" href="{{ site.github.url }}/covid-19-update">COVID-19 Update</a>
-              <a class="dropdown-item" href="{{ site.github.url }}/passplus">Pass Plus</a>
-              <a class="dropdown-item" href="{{ site.github.url }}/testimonials/">Testimonials</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/driving-lessons-york" aria-label="Lessons in York">Lessons in York</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/covid-19-update" aria-label="COVID-19 Update">COVID-19 Update</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/passplus" aria-label="Pass Plus">Pass Plus</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/testimonials/" aria-label="Testimonials">Testimonials</a>
             </div>
           </li>
           <li class="nav-item submenu dropdown">
@@ -39,13 +39,13 @@
               Instructors
             <i class="fas fa-caret-down"></i></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="{{ site.github.url }}/our-instructors/">Our Instructors</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/our-instructors/" aria-label="Our Instructors">Our Instructors</a>
               <!-- <a class="dropdown-item" href="{{ site.github.url }}/our-trainees/">Our Trainees</a> -->
-              <a class="dropdown-item" href="{{ site.github.url }}/become-an-instructor/">Become an Instructor</a>
+              <a class="dropdown-item" href="{{ site.github.url }}/become-an-instructor/" aria-label="Become an Instructor">Become an Instructor</a>
             </div>
           </li>
           <li class="nav-item">
-            <button class="btn btn-primary btn-sm btn-responsive" data-toggle="modal" data-target="#bookFormModal">Book Now</button>
+            <button class="btn btn-primary btn-sm btn-responsive" data-toggle="modal" data-target="#bookFormModal" aria-label="Book now">Book Now</button>
           </li>
         </ul>
         </div>

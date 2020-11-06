@@ -92,7 +92,7 @@ testimonial_section:
             </div>
             {% elsif site.corona_status == "closed" %}
             <div class="alert alert-covid alert-warning d-inline-block" role="alert">
-              COVID-19 Status: We are closed <i class="fas fa-times"></i> <a class="btn btn-link" href="{{site.github.url}}/covid-19-update/">Find out more</a>
+              COVID-19 Status: {{ site.corona_closed_title }} <i class="fas fa-times"></i> <a class="btn btn-link" href="{{site.github.url}}/covid-19-update/">Find out more</a>
             </div>
 
             {% else %}

@@ -19,14 +19,14 @@ defaults:
     year: ''
     categories: Testimonials
 email: checkmirrors@gmail.com
-description: Learn to drive in York with checkmirrors driving instructors. Female Instructors, NHS Discount & Pass Plus options available in York. We are fully COVID secure. 
+description: Learn to drive in York with checkmirrors driving instructors. Female Instructors, NHS Discount & Pass Plus options available in York. We are fully COVID secure.
 pricePerLesson: "£28"
 priceForTen: "£270"
 passPlusPrice: "£220"
-corona_status: open
+corona_status: closed
 corona_open_title: "We are open"
 corona_open_text: "checkmirrors is still open for lessons, this will be continuously reviewed as per government guidance."
-corona_closed_title: "We are closed"
+corona_closed_title: "Lessons are delayed"
 corona_closed_text: "Inline with government guidance, checkmirrors is currently closed. We will notify existing students when lessons can recommence."
 shareImage: "/img/checkmirrors-team-fb-share.jpg"
 baseurl:

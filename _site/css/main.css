@@ -1449,6 +1449,14 @@ section h2 { font-size: 36px; }
 
 .registration_area .register_form h2, .registration_area .register_form h3 { color: #002347; }
 
+.banner-covid { background-color: #002347; color: white; }
+
+.banner-covid .banner-covid-inner { display: flex; align-items: center; justify-content: space-between; }
+
+.banner-covid .banner-covid-message p { margin: 5px; }
+
+.banner-covid .banner-covid-dismiss .btn { background-color: transparent; border: none; color: white; }
+
 .mb-9 { margin-bottom: 40px; }
 
 .img-fluid { border-radius: 12px; }

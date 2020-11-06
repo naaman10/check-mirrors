@@ -125,7 +125,27 @@ section h2 {
     }
   }
 }
-
+.banner-covid {
+  background-color: #002347;
+  color: white;
+  .banner-covid-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-covid-message {
+    p {
+      margin: 5px;
+    }
+  }
+  .banner-covid-dismiss {
+    .btn {
+      background-color: transparent;
+      border: none;
+      color: white;
+    }
+  }
+}
 
 .mb-9 {
   margin-bottom: 40px;

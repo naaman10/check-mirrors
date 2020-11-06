@@ -165,3 +165,16 @@ $("#bookForm").validate({
  	});
  }
 });
+$(document).ready(function() {
+  var cookie = Cookies.get('bannerDismiss');
+  if (cookie == "TRUE") {
+    $('.banner-covid').css('display', 'none');
+  } else {
+    $('#banner-dismiss').click(function() {
+      $('.banner-covid').css('display', 'none');
+      Cookies.set('bannerDismiss', 'TRUE', {
+        expires: 7
+      });
+    });
+  }
+});
