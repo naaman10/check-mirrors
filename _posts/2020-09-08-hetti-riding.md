@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hetti Riding
-date: 08/09/2020
+title: Congratulations Hetti Riding
+date: 10/09/2020
 image: "/uploads/hetti-testimonial.jpg"
 year: 2020
 
