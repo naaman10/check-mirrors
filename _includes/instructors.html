@@ -1,0 +1,22 @@
+<div class="row mt-3">
+  {% for instructor in page.instructors %}
+  <div class="col-12">
+  <div class="card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <div class="card-img new-rounded">
+          <img src="{{ site.github.url }}{{ instructor.instructor_image }}" alt="{{ instructor.instructor_name }}">
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">{{ instructor.instructor_name }}</h3>
+          <p class="small">{{ instructor.instructor_info }}</p>
+          <p class="card-text">{{ instructor.instructor_bio }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  {% endfor %}
+</div>

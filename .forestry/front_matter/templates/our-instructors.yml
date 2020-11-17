@@ -32,6 +32,11 @@ fields:
     config:
       required: false
     label: Instructor Name
+  - name: instructor_info
+    type: text
+    config:
+      required: false
+    label: Instructor Info
   - name: instructor_bio
     type: textarea
     default: ''
@@ -47,9 +52,9 @@ fields:
       maxSize: 64
     label: Instructor Image
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Instructors
 pages:
 - our-instructors.html
