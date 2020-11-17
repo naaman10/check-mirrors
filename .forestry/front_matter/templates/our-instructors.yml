@@ -14,3 +14,40 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: sub_heading
+  type: text
+  config:
+    required: false
+  label: Sub Heading
+- name: instructors
+  type: field_group_list
+  fields:
+  - name: instructor_name
+    type: text
+    config:
+      required: false
+    label: Instructor Name
+  - name: instructor_bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Instructor Bio
+  - name: instructor_image
+    type: file
+    config:
+      maxSize: 64
+    label: Instructor Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Instructors
