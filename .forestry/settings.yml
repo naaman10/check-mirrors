@@ -24,6 +24,10 @@ sections:
   path: index.html
   label: Home Page
 - type: document
+  path: lessons-york.html
+  label: Lessons in York
+  match: "**/*"
+- type: document
   path: our-instructors.html
   label: Our Instructors
 upload_dir: uploads
