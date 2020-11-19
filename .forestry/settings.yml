@@ -27,6 +27,10 @@ sections:
   path: lessons-york.html
   label: Lessons in York
 - type: document
+  path: covid-update.html
+  label: Covid Update
+  match: "**/*"
+- type: document
   path: our-instructors.html
   label: Our Instructors
 upload_dir: uploads
