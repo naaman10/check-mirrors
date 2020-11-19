@@ -1,0 +1,69 @@
+---
+label: Covid
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: layout
+  label: layout
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: location
+  label: location
+- type: field_group
+  name: intro_section
+  label: intro_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: sub-title
+    label: sub-title
+- type: field_group
+  name: updates_section
+  label: updates_section
+  fields:
+  - type: field_group_list
+    name: section_cards
+    label: section_cards
+    fields:
+    - type: file
+      name: card_image
+      label: card_image
+    - type: text
+      name: card_title
+      label: card_title
+    - type: text
+      name: card_text
+      label: card_text
+- type: field_group
+  name: faq_section
+  label: faq_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: sub-title
+    label: sub-title
+  - type: field_group_list
+    name: questions
+    label: questions
+    fields:
+    - type: text
+      name: question_text
+      label: question_text
+    - type: textarea
+      name: answer_text
+      label: answer_text
