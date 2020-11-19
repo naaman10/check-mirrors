@@ -68,6 +68,88 @@ fields:
       labelField: 
     label: Section Cards
   label: Services Section
+- name: features_section
+  type: field_group_list
+  fields:
+  - name: learner
+    type: field_group
+    config: {}
+    fields:
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: Icon
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: features
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Features
+    - name: feature_cta
+      type: field_group
+      config: {}
+      fields:
+      - name: button_text
+        type: text
+        config:
+          required: false
+        label: Button Text
+      - name: button_link
+        type: text
+        config:
+          required: false
+        label: Button Link
+      label: Feature CTA
+    label: Learner
+  - name: instructor
+    type: field_group
+    config: {}
+    fields:
+    - name: icon
+      type: text
+      config:
+        required: false
+      label: Icon
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: features
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Features
+    - name: feature_cta
+      type: field_group
+      config: {}
+      fields:
+      - name: button_text
+        type: text
+        config:
+          required: false
+        label: Button Text
+      - name: button_link
+        type: text
+        config:
+          required: false
+        label: Button Link
+      label: Feature CTA
+    label: Instructor
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Features Section
 - name: testimonial_section
   type: field_group
   config: {}
