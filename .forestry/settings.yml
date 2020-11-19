@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: document
+  path: _config.yml
+  label: config
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
@@ -29,7 +33,6 @@ sections:
 - type: document
   path: covid-update.html
   label: Covid Update
-  match: "**/*"
 - type: document
   path: our-instructors.html
   label: Our Instructors
