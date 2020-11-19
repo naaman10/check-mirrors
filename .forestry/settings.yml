@@ -21,7 +21,7 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: _config.yml
+  path: data/siteData.json
   label: data
   new_doc_ext: yml
 - type: document
