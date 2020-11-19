@@ -23,6 +23,9 @@ sections:
 - type: document
   path: index.html
   label: Home Page
+- type: document
+  path: our-instructors.html
+  label: Our Instructors
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
