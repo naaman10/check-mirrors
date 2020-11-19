@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
@@ -21,9 +21,10 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: data/siteData.json
+  path: _data/siteData.json
   label: data
-  new_doc_ext: yml
+  new_doc_ext: json
+  match: "*.json"
 - type: document
   path: index.html
   label: Home Page
