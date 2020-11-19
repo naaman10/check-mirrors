@@ -21,6 +21,10 @@ sections:
 - type: heading
   label: Pages
 - type: document
+  path: config.yml
+  label: data
+  match: "**/*"
+- type: document
   path: index.html
   label: Home Page
 - type: document
