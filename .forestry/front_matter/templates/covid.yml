@@ -14,56 +14,59 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: list
-  name: tags
-  label: tags
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - type: text
   name: location
   label: location
 - type: field_group
   name: intro_section
-  label: intro_section
+  label: Intro Section
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: textarea
     name: sub-title
-    label: sub-title
+    label: Sub-Title
 - type: field_group
   name: updates_section
-  label: updates_section
+  label: Updates Section
   fields:
   - type: field_group_list
     name: section_cards
-    label: section_cards
+    label: Section Cards
     fields:
-    - type: file
-      name: card_image
-      label: card_image
     - type: text
       name: card_title
-      label: card_title
+      label: Card Title
     - type: text
       name: card_text
-      label: card_text
+      label: Card Text
+    - type: file
+      name: card_image
+      label: Card Image
+    config:
+      labelField: card_title
 - type: field_group
   name: faq_section
-  label: faq_section
+  label: FAQ Section
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: sub-title
-    label: sub-title
+    label: Sub-Title
   - type: field_group_list
     name: questions
-    label: questions
+    label: Questions
     fields:
     - type: text
       name: question_text
-      label: question_text
+      label: Question Text
     - type: textarea
       name: answer_text
-      label: answer_text
+      label: Answer Text
