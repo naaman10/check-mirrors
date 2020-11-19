@@ -9,7 +9,13 @@
   <meta name="keywords" content="{%if page.tags %}{{ page.tags | join: ', ' | escape }}{% else %}{{ site.tags | join: ', ' | escape }}{% endif %}"/>
   {% include google.html %}
   <script src="https://kit.fontawesome.com/c26d8f910e.js" crossorigin="anonymous"></script>
+
+  {% if page.layout == "post" %}
+    {% include share-meta.html %}
+  {% else %}
     {% include normal-meta.html %}
+  {% endif %}
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ site.github.url }}/css/animate.css" type="text/css">
