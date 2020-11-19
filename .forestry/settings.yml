@@ -18,6 +18,12 @@ sections:
 - type: jekyll-posts
   label: Testimonials
   create: all
+- type: heading
+  label: Pages
+- type: document
+  path: index.html
+  label: Home Page
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
