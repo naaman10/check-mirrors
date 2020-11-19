@@ -11,7 +11,7 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: list
+- type: tag_list
   name: tags
   label: tags
 - name: heading
@@ -52,9 +52,9 @@ fields:
       maxSize: 64
     label: Instructor Image
   config:
-    min: 
-    max: 
-    labelField: 
+    min:
+    max:
+    labelField:
   label: Instructors
 pages:
 - our-instructors.html
