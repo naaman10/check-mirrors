@@ -1,0 +1,12 @@
+{
+	"contactDetails": {
+		"faceBook": "https://www.facebook.com/pg/checkmirrors",
+		"email": "contact@checkmirrors.co.uk",
+		"phone": "07821291783"
+	},
+	"prices": {
+		"pricePerLesson": "£28",
+		"priceForTen": "£270",
+		"passPlusPrice": "£220"
+	}
+}
