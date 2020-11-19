@@ -20,3 +20,80 @@ fields:
 - type: text
   name: location
   label: location
+- name: intro_section
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: cta
+    type: field_group
+    config: {}
+    fields:
+    - name: button_text
+      type: text
+      config:
+        required: false
+      label: Button Text
+    - name: button_link
+      type: text
+      config:
+        required: false
+      label: Button Link
+    label: CTA
+  label: Intro Section
+- name: offers_section
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: sub_heading
+    type: text
+    config:
+      required: false
+    label: Sub Heading
+  - name: offers
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Offers
+  label: Offers Section
