@@ -52,9 +52,9 @@ fields:
       maxSize: 64
     label: Instructor Image
   config:
-    min:
-    max:
-    labelField:
+    min: 
+    max: 
+    labelField: 
   label: Instructors
 pages:
 - our-instructors.html
