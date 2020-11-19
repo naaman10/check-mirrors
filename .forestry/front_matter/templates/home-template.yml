@@ -63,13 +63,13 @@ fields:
         label: Button Link
       label: Card Button
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Section Cards
   label: Services Section
 - name: features_section
-  type: field_group_list
+  type: field_group
   fields:
   - name: learner
     type: field_group
@@ -89,8 +89,8 @@ fields:
       type: list
       config:
         use_select: false
-        min: 
-        max: 
+        min:
+        max:
       label: Features
     - name: feature_cta
       type: field_group
@@ -126,8 +126,8 @@ fields:
       type: list
       config:
         use_select: false
-        min: 
-        max: 
+        min:
+        max:
       label: Features
     - name: feature_cta
       type: field_group
@@ -145,10 +145,7 @@ fields:
         label: Button Link
       label: Feature CTA
     label: Instructor
-  config:
-    min: 
-    max: 
-    labelField: 
+  config: {}
   label: Features Section
 - name: testimonial_section
   type: field_group
@@ -182,9 +179,9 @@ fields:
           format: markdown
       label: Testimonial Text
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Testimonials
   label: Testimonial Section
 - name: about_section

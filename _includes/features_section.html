@@ -3,32 +3,28 @@
     <div class="row">
       <div class="col-lg-6 col-md-6">
         <div class="single_feature">
-          <div class="icon"><span class="fas fa-graduation-cap"></span></div>
+          <div class="icon">{{ page.features_section.learner.icon }}</div>
           <div class="desc">
-            <h4 class="mt-3 mb-2">Learn to drive with confidence</h4>
+            <h4 class="mt-3 mb-2">{{ page.features_section.learner.heading }}</h4>
             <ul class="home-features">
-              <li><i class="fas fa-check"></i> Learn to drive in <a href="/driving-lessons-york">York</a></li>
-              <li><i class="fas fa-check"></i> Fully qualified ADI instructors</li>
-              <li><i class="fas fa-check"></i> Pass Plus Available</li>
-              <li><i class="fas fa-check"></i> Flexible around you</li>
-              <li><i class="fas fa-check"></i> NHS discount available</li>
-              <a href="{{site.github.url}}/driving-lessons-york" class="btn btn-secondary">Find out more</a>
+              {% for feature in page.features_section.learner.features %}
+              <li><i class="fas fa-check"></i> {{ feature }}</li>
+              {% endfor %}
+              <a href="{{site.github.url}}{{ page.features_section.learner.feature_cta.button_link }}" class="btn btn-secondary">{{ page.features_section.learner.feature_cta.button_text }}</a>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-lg-6 col-md-6">
         <div class="single_feature">
-          <div class="icon"><span class="fas fa-car"></span></div>
+          <div class="icon">{{ page.features_section.instructor.icon }}</div>
           <div class="desc">
-            <h4 class="mt-3 mb-2">Become a Driving Instructor</h4>
+            <h4 class="mt-3 mb-2">{{ page.features_section.instructor.heading }}</h4>
             <ul class="home-features">
-              <li><i class="fas fa-check"></i> Become ADI Qualified</a></li>
-              <li><i class="fas fa-check"></i> One to one tuition</li>
-              <li><i class="fas fa-check"></i> Tailoured to suit you</li>
-              <li><i class="fas fa-check"></i> Set your own hours</li>
-              <li><i class="fas fa-check"></i> Free livery</li>
-              <a href="{{site.github.url}}/become-an-instructor" class="btn btn-secondary">Find out more</a>
+              {% for feature in page.features_section.instructor.features %}
+              <li><i class="fas fa-check"></i> {{ feature }}</li>
+              {% endfor %}
+              <a href="{{site.github.url}}{{ page.features_section.instructor.feature_cta.button_link }}" class="btn btn-secondary">{{ page.features_section.instructor.feature_cta.button_text }}</a>
             </ul>
           </div>
         </div>
