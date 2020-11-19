@@ -99,3 +99,5 @@ fields:
       labelField: 
     label: Offers
   label: Offers Section
+pages:
+- lessons-york.html
