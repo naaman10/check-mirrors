@@ -1,0 +1,37 @@
+<section class="testimonial_area clear-bg section_gap">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="text-center mb-5">
+          <h2 class="mb-3">{{ page.testimonial_section.section_title }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="testi_slider owl-carousel">
+        {% for testimonial in page.testimonial_section.testimonials  %}
+        <div class="testi_item">
+          <div class="card mb-3">
+            <div class="card-img-top">
+              <img class="" src="{{site.github.url}}{{ testimonial.testimonial_image }}" alt="{{ testimonial.name }} testimonial image">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">{{ testimonial.name }}</h4>
+              <p class="card-text">
+                {{ testimonial.testimonial_text }}
+              </p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+          <div class="text-right">
+            <a href="{{site.github.url}}/testimonials/" class="event-link">View more <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
