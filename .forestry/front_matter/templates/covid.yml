@@ -70,3 +70,5 @@ fields:
     - type: textarea
       name: answer_text
       label: Answer Text
+pages:
+- covid-update.html
