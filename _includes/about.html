@@ -5,15 +5,13 @@
       <div class="col-lg-7">
         <div class="row clock_sec clockdiv" id="clockdiv">
           <div class="col-lg-12">
-            <h2 class="mb-3">About <span class="title-a">check</span><span class="title-b">mirrors</span></h2>
-            <p>Checkmirrors was established in 2014. The company director is Sarah Hellowell who has over 17 years experience instructing.</p>
-            <p>We are a small company with experienced driving instructors in York who give total quality tuition assuring complete safety for each pupil.</p>
-            <p>Our aim is not just to teach people to pass a driving test but to teach a skill for life so when they leave us they are a safe and competent driver.</p>
+            <h2 class="mb-3">{{ page.about_section.heading }}</h2>
+            {{ page.about_section.about_text | markdownify }}
           </div>
         </div>
       </div>
       <div class="col-lg-4 offset-lg-1">
-        <img src="{{ site.github.url }}/img/about.jpg" class="about-image" alt="checkmirrors cars">
+        <img src="{{ site.github.url }}{{ page.about_section.image }}" class="about-image" alt="checkmirrors cars">
       </div>
     </div>
   </div>
