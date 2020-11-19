@@ -105,5 +105,29 @@ fields:
       labelField: 
     label: Testimonials
   label: Testimonial Section
+- name: about_section
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: about_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: About Text
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  label: About Section
 pages:
 - index.html
