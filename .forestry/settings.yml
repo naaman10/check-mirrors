@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url:
+webhook_url: 
 sections:
 - type: jekyll-pages
   label: Pages
@@ -18,13 +18,12 @@ sections:
 - type: jekyll-posts
   label: Testimonials
   create: all
-- type: heading
-  label: Pages
 - type: document
   path: _data/siteData.json
-  label: data
+  label: Site Data
   new_doc_ext: json
-  match: "*.json"
+- type: heading
+  label: Pages
 - type: document
   path: index.html
   label: Home Page
