@@ -4,13 +4,12 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: document
-  path: _config.yml
-  label: config
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
+- type: document
+  path: config.yml
+  label: config
 - type: directory
   path: _uploads
   label: Uploads
