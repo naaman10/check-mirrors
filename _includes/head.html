@@ -5,15 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | checkmirrors.co.uk</title>
   {% include favicon.html %}
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
   <meta name="keywords" content="{%if page.tags %}{{ page.tags | join: ', ' | escape }}{% else %}{{ site.tags | join: ', ' | escape }}{% endif %}"/>
   {% include google.html %}
   <script src="https://kit.fontawesome.com/c26d8f910e.js" crossorigin="anonymous"></script>
 
   {% if page.layout == "post" %}
     {% include share-meta.html %}
+    <meta name="robots" content="noindex">
+    <meta name="description" content="{{ page.title }} | Passed with checkmirrors School of Motoring.">
   {% else %}
     {% include normal-meta.html %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
 
   <!-- Bootstrap CSS -->
@@ -23,7 +26,7 @@
   <link href="https://fonts.googleapis.com/css?family=Anton|Roboto:500" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ site.github.url }}/css/owl-carousel/owl.carousel.min.css" />
   <link rel="stylesheet" href="{{ site.github.url }}/css/main.css" type="text/css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ site.github.url }}{{ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 </head>
