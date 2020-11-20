@@ -18,6 +18,7 @@ defaults:
     Date: ''
     year: ''
     categories: Testimonials
+permalink: pretty
 email: checkmirrors@gmail.com
 description: Learn to drive in York and the surrounding area. Female Instructors, NHS Discount & Pass Plus options available in York. We are fully COVID secure.
 pricePerLesson: "£28"
