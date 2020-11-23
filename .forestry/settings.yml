@@ -36,6 +36,10 @@ sections:
 - type: document
   path: our-instructors.html
   label: Our Instructors
+- type: document
+  path: pass-plus.html
+  label: Pass Plus
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
