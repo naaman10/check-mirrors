@@ -1,0 +1,19 @@
+---
+label: Pass Plus
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: layout
+  label: layout
+- type: list
+  name: tags
+  label: tags
