@@ -116,3 +116,5 @@ fields:
       label: Image Alt
     label: Image
   label: Details Section
+pages:
+- pass-plus.html
