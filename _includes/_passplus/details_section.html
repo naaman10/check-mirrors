@@ -1,0 +1,26 @@
+<div class="section_gap registration_area">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="row clock_sec clockdiv" id="clockdiv">
+          <h2 class="mb-3">{{ page.details_section.title }}</h2>
+          <p>{{ page.details_section.text }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row clock_sec">
+      <div class="col-lg-7">
+        <h3>{{ page.details_section.syallabus.title }}</h3>
+        <ul class="home-features">
+          {% for module in page.details_section.syallabus.modules %}
+          <li>{{ module }}</li>
+          {% endfor %}
+        </ul>
+        <p>{{ page.details_section.syallabus.text }}</p>
+      </div>
+      <div class="col-lg-5">
+        <img src="{{ site.github.url }}{{ page.details_section.image.image }}" alt="page.details_section.image.image_alt">
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<section id="ppTestimonial" class="pt-5 clear-bg">
+  <div class="container">
+    <div class="row text-center text-md-left">
+      {% for alumni in page.alumni_section.alumni %}
+      <div class="col-sm-12 col-md-6">
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <div class="card-img new-rounded">
+              <img src="{{ site.github.url }}{{ alumni.image.image }}" alt="{{ alumni.image.image_alt }}">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ alumni.title }}</h5>
+              <p class="card-text">{{ alumni.text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
