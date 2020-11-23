@@ -41,6 +41,9 @@
 /*----------------------------------------------------*/
 @import "footer";
 /*---------------------------------------------------- */
+@import "owl-carousel/owl.carousel.min.css";
+
+
 // Our variables
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
