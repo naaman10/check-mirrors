@@ -1,0 +1,16 @@
+<div class="container-fluid py-5 registration_area">
+  <div class="row justify-content-center mt-3">
+    <div class="col-lg-8">
+      <div class="text-center mb-3">
+        <h2 class="mb-3">{{ page.pass_plus_section.title }}</h2>
+        <div class="">
+          {{ page.pass_plus_section.text | markdownify }}
+        </div>
+        <a class="btn btn-primary btn-lg" href="{{ page.pass_plus_section.cta.button_link }}">{{ page.pass_plus_section.cta.button_text }}</a>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <img src="{{ page.pass_plus_section.image.image }}" alt="{{ page.pass_plus_section.image.image_alt }}">
+    </div>
+  </div>
+</div>

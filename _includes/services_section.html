@@ -29,6 +29,13 @@
         </div>
         {% endfor %}
       </div>
+      {% if page.services_section.services_text %}
+      <div class="row">
+        <div class="col">
+          <div class="text-center mt-3">{{ page.services_section.services_text | markdownify }}</div>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
