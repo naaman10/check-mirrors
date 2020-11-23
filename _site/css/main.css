@@ -1433,7 +1433,9 @@ body { background-color: #F7F9F8; }
 
 .title-b, a .title-b { color: #0A9444; }
 
-h1 .title-a, h1 .title-b { font-size: 2.5rem !important; font-family: "Roboto", sans-serif; }
+h1 .title-a, h1 h1 .title-b { font-size: 2.5rem !important; font-family: "Roboto", sans-serif; }
+
+h1 .title-c { display: block; font-size: 24px; color: white; }
 
 .title-a, .title-b { font-weight: 500; -webkit-text-stroke: 1.5px #fff; }
 
@@ -1489,7 +1491,7 @@ section h2 { font-size: 36px; }
 
 .testimonial-card .card-img-top img { overflow: hidden; object-fit: cover; height: auto; min-height: 230px; max-height: 230px; }
 
-.testimonial-card .card-title { height: 42px; }
+.testimonial-card .card-title { height: 42px; font-size: 18px; font-weight: 500; }
 
 .testimonial-card .card-title .card-title-link { color: #002347; }
 

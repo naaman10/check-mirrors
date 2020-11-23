@@ -37,7 +37,7 @@ tags:
           <img src="{{ post.image }}" alt="{{post.title}}">
         </div>
         <div class="card-body">
-          <h4 class="card-title"><a class="card-title-link" href="{{ site.github.url }}{{ post.url }}">{{ post.title | truncatewords: 10}}</a></h4>
+          <p class="card-title"><a class="card-title-link" href="{{ site.github.url }}{{ post.url }}">{{ post.title | truncatewords: 10}}</a></p>
           <p class="card-text">
             {{ post.date | date_to_long_string }}
           </p>
