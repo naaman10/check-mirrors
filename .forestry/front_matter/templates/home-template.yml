@@ -67,6 +67,15 @@ fields:
       max: 
       labelField: 
     label: Section Cards
+  - name: services_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Services Text
   label: Services Section
 - name: features_section
   type: field_group
