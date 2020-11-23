@@ -56,7 +56,7 @@ fields:
       label: Image
     config:
       min: 
-      max: 
+      max: 2
       labelField: 
     label: Alumni
   label: Alumni Section
@@ -116,5 +116,39 @@ fields:
       label: Image Alt
     label: Image
   label: Details Section
+- name: why_passplus_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: image
+    type: field_group
+    config: {}
+    fields:
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+    - name: image_alt
+      type: text
+      config:
+        required: false
+      label: Image Alt
+    label: Image
+  label: Why Passplus Section
 pages:
 - pass-plus.html
