@@ -1460,6 +1460,12 @@ section h2 { font-size: 36px; }
 
 .banner-covid .banner-covid-dismiss .btn { background-color: transparent; border: none; color: white; }
 
+.googleReview { text-align: center; background-color: white; box-shadow: 0 6px 18px 0 rgba(9, 32, 76, 0.035); border-radius: 12px; }
+
+.googleReview .googleReviewImage { width: 60%; display: block; text-align: center; margin-left: auto; margin-right: auto; }
+
+.googleReview .googleReviewStars { color: #F9B403; }
+
 .mb-9 { margin-bottom: 40px; }
 
 .img-fluid { border-radius: 12px; }
