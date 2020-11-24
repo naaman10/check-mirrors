@@ -1,0 +1,15 @@
+{% if page.details_section.title %}
+<section class="container mb-4 section_gap" id="become-check">
+  <div class="row justify-content-left mt-4">
+    <div class="col-lg-8">
+      <h2 class="mb-3">{{ page.details_section.title }}</h2>
+      <div>
+        {{ page.details_section.text | markdownify }}
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <img class="img-fluid" src="{{ page.details_section.image.image }}" alt="{{ page.details_section.image.image_alt }}">
+    </div>
+  </div>
+</section>
+{% endif %}
