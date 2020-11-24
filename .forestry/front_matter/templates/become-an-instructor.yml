@@ -53,11 +53,22 @@ fields:
       required: false
     label: Title
   - name: features
-    type: list
+    type: field_group_list
+    fields:
+    - name: feature_icon
+      type: text
+      config:
+        required: false
+      label: Feature Icon
+    - name: feature_text
+      type: text
+      config:
+        required: false
+      label: Feature Text
     config:
-      use_select: false
       min: 
       max: 
+      labelField: 
     label: Features
   label: Whats Included
 - name: details_section
