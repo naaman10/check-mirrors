@@ -39,7 +39,6 @@ sections:
 - type: document
   path: become-an-instructor.html
   label: Become an Instructor
-  match: "**/*"
 - type: document
   path: pass-plus.html
   label: Pass Plus

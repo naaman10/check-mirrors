@@ -68,7 +68,7 @@ fields:
     config:
       min: 
       max: 
-      labelField: 
+      labelField: feature_text
     label: Features
   label: Whats Included
 - name: details_section
@@ -106,4 +106,5 @@ fields:
     label: Image
   label: Details Section
 pages:
+- become-an-instructor.html
 - become-an-instructor.html
