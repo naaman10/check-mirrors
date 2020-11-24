@@ -37,6 +37,10 @@ sections:
   path: our-instructors.html
   label: Our Instructors
 - type: document
+  path: become-an-instructor.html
+  label: Become an Instructor
+  match: "**/*"
+- type: document
   path: pass-plus.html
   label: Pass Plus
 upload_dir: uploads
