@@ -94,3 +94,5 @@ fields:
       label: Image Alt
     label: Image
   label: Details Section
+pages:
+- become-an-instructor.html
