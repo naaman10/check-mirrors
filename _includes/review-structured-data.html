@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "AggregateRating",
+  "itemReviewed": {
+    "@type": "LocalBusiness",
+    "image": "https://www.checkmirrors.co.uk/img/about.jpg",
+    "name": "checkmirrors Driving instructors in York",
+    "telephone": "07821291783",
+    "email" : "checkmirrors@gmail.com",
+    "priceRange": "££",
+    "address" : {
+      "@type": "PostalAddress",
+      "streetAddress": "Yarburgh Grove",
+      "addressLocality": "York",
+      "addressRegion": "North Yorkshire",
+      "postalCode": "YO26 4TP",
+      "addressCountry": "United Kingdom"
+    }
+  },
+  "ratingValue": "{{ site.data.siteData.reviews.google.reviewScore }}",
+  "bestRating": "5",
+  "ratingCount": "{{ site.data.siteData.reviews.google.reviewCount }}"
+}
+</script>

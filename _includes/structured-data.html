@@ -7,6 +7,7 @@
   "image" : "https://www.checkmirrors.co.uk/img/about.jpg",
   "telephone" : "07821291783",
   "email" : "checkmirrors@gmail.com",
+  "priceRange": "££",
   "address" : {
     "@type" : "PostalAddress",
     "streetAddress" : "Yarburgh Grove",
@@ -19,8 +20,8 @@
   "url" : "https://www.checkmirrors.co.uk/",
   "aggregateRating" : {
     "@type" : "AggregateRating",
-    "ratingValue" : "4.9",
-    "ratingCount" : "33"
+    "ratingValue" : "{{ site.data.siteData.reviews.google.reviewScore }}",
+    "ratingCount" : "{{ site.data.siteData.reviews.google.reviewCount }}"
   }
 }
 </script>

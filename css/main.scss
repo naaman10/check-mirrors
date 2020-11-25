@@ -170,6 +170,15 @@ section h2 {
   }
   .googleReviewStars {
     color: #F9B403;
+    .starBack {
+      height: 15px;
+      background-color: white;
+      width: 5px;
+      display: inline-block;
+      position: relative;
+      left: -3px;
+      top: 3px;
+    }
   }
 }
 .mb-9 {

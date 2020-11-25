@@ -1466,6 +1466,8 @@ section h2 { font-size: 36px; }
 
 .googleReview .googleReviewStars { color: #F9B403; }
 
+.googleReview .googleReviewStars .starBack { height: 15px; background-color: white; width: 5px; display: inline-block; position: relative; left: -3px; top: 3px; }
+
 .mb-9 { margin-bottom: 40px; }
 
 .img-fluid { border-radius: 12px; }
