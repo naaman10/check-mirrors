@@ -73,6 +73,11 @@ fields:
       schema:
         format: markdown
     label: Text
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Button Text
   label: PassPlus Promo Section
 - name: details_section
   type: field_group
