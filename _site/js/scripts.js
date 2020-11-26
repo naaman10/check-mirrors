@@ -29,8 +29,6 @@ var today, datepicker;
 				width: '160',
 				format: 'dd/mm/yyyy'
     });
-
-
 //booking form submit
 
 $("#bookForm").validate({

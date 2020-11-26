@@ -21,7 +21,7 @@
             <div class="card-body">
               <h4 class="card-title"><a>{{ section_card.card_title }}</a></h4>
               <p class="card-text">
-                {{ section_card.card_text | markdownify }}
+                {{ section_card.card_text | liquify | markdownify }}
               </p>
               <a href="{{ site.github.url }}/driving-lessons-york/" class="btn btn-primary btn-block">Learn More</a>
             </div>
