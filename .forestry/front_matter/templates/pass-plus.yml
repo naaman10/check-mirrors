@@ -60,6 +60,20 @@ fields:
       labelField: 
     label: Alumni
   label: Alumni Section
+- name: passplus_promo_section
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  label: PassPlus Promo Section
 - name: details_section
   type: field_group
   config: {}
@@ -150,19 +164,5 @@ fields:
       label: Image Alt
     label: Image
   label: Why Passplus Section
-- name: passplus_promo_section
-  type: field_group
-  config: {}
-  fields:
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Text
-  label: PassPlus Promo Section
 pages:
 - pass-plus.html
