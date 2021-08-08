@@ -3,7 +3,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.checkmirrors.co.uk/</loc>
-    <lastmod>2020-08-14T10:56:54+01:00</lastmod>
+    <lastmod>2021-07-15T10:56:54+01:00</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -23,12 +23,12 @@
   </url>
   <url>
     <loc>https://www.checkmirrors.co.uk/driving-lessons-york/</loc>
-    <lastmod>2020-08-14T10:56:58+01:00</lastmod>
+    <lastmod>2021-07-15T10:56:58+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.checkmirrors.co.uk/driving-lessons-york/what-you-need/</loc>
-    <lastmod>2020-11-20T10:56:58+01:00</lastmod>
+    <lastmod>2021-07-15T10:56:58+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.checkmirrors.co.uk/covid-19-update/</loc>
-    <lastmod>2020-08-15T10:57:01+01:00</lastmod>
+    <lastmod>2021-07-18T10:57:01+01:00</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
