@@ -104,6 +104,9 @@ fields:
         required: false
       label: Image Alt
     label: Image
+  - name: active
+    type: boolean
+    label: Active
   label: Details Section
 pages:
 - become-an-instructor.html
