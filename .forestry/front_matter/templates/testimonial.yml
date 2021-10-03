@@ -11,6 +11,11 @@ fields:
   config:
     date_format: DD/MM/YYYY
     export_format: DD/MM/YYYY
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
 - type: file
   name: image
   label: Image
