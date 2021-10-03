@@ -29,6 +29,9 @@ fields:
   label: layout
   hidden: true
   default: post
+- name: firstTime
+  type: boolean
+  label: First Time
 pages:
 - _posts/2017-12-16-andy-gregory.md
 - _posts/2017-12-16-rachel-mccarthy.md
