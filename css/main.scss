@@ -450,3 +450,10 @@ label.error {
     background-color: transparent;
   }
 }
+@media screen and (max-width: 1024px) {
+  .testimonial-card {
+    .card-title {
+      height: 64px;
+    }
+  }
+}

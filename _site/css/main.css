@@ -1573,4 +1573,6 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 
 @media screen and (max-width: 991px) { .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } .header_area .navbar { border-radius: 12px; margin: 5px; box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); } .header_area.navbar_fixed .main_menu { box-shadow: none; background-color: transparent; } }
 
+@media screen and (max-width: 1024px) { .testimonial-card .card-title { height: 64px; } }
+
 /*# sourceMappingURL=main.css.map */
