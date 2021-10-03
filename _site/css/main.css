@@ -1441,7 +1441,7 @@ h1 .title-a, h1 h1 .title-b { font-size: 2.5rem !important; font-family: "Roboto
 
 h1 .title-c { display: block; font-size: 24px; color: white; }
 
-.title-a, .title-b { font-weight: 500; -webkit-text-stroke: 1.5px #fff; }
+.title-a, .title-b { font-weight: 500; }
 
 h2 .title-a, h2 .title-b { font-size: 34px; letter-spacing: 2px; font-family: "Roboto", sans-serif; }
 
