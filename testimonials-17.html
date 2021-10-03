@@ -51,7 +51,7 @@ tags:
           <img src="{{ post.image }}" alt="{{post.title}}">
         </div>
         <div class="card-body">
-          <p class="card-title"><a class="card-title-link" href="{{ site.github.url }}{{ post.url }}">{{ post.title | truncatewords: 10}}</a></p>
+          <p class="card-title"><a class="card-title-link" href="{{ site.github.url }}{{ post.url }}">Congratulations to {{ post.name }}, who passed {% if post.firstTime == true %}first time{% endif %} today.</a></p>
           <p class="card-text">
             {{ post.date | date_to_long_string }}
           </p>

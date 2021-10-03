@@ -5,6 +5,7 @@ image: "/uploads/testimonial2018.jpg"
 year: 2018
 layout: post
 name: Beth Loseby
+firstTime: true
 ---
 
 “Couldn’t recommend Rob from Checkmirrors driving school enough, after struggling with driving for months before taking lessons with him, I noticed a change straight away and passed first time!”
