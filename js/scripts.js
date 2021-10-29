@@ -3,16 +3,16 @@ $(document).ready(function() {
     $(this).toggleClass('open');
   });
   $('.my-background-video').bgVideo({
-    fullScreen: false, // Sets the video to be fixed to the full window - your <video> and it's container should be direct descendents of the <body> tag
+    fullScreen: false,
     fadeIn: 500,
     pauseAfter: 120,
     fadeOnPause: false,
     fadeOnEnd: true,
-    showPausePlay: true, // Show pause/play button
-    pausePlayXPos: 'right', // left|right|center
-    pausePlayYPos: 'top', // top|bottom|center
-    pausePlayXOffset: '15px', // pixels or percent from side - ignored if positioned center
-    pausePlayYOffset: '15px' // pixels or percent from top/bottom - ignored if positioned center
+    showPausePlay: true,
+    pausePlayXPos: 'right',
+    pausePlayYPos: 'top',
+    pausePlayXOffset: '15px',
+    pausePlayYOffset: '15px'
   });
   $('#footModal').on('click', function(event){
     event.preventDefault();
@@ -93,12 +93,19 @@ $("#bookForm").validate({
         },
         beforeSend: function() {
           $("#bookForm").hide();
+          $(".alert").remove();
           $("#busy").show();
         },
         success: function() {
           $("#busy").replaceWith('<div class="row"><div class="col"><div class="completeMessage"><h2>Message received! 👍</h2><p>One of the team will be in touch soon.</p></div></div></div>');
         },
-        data: JSON.stringify(contactForm)
+        data: JSON.stringify(contactForm),
+        error: function(xhr,status,errors) {
+            console.log(status);
+            var errMessage = xhr.responseJSON.errors[0].errorType;
+            $("#busy").hide();
+            $("#bookForm").show().parent().prepend('<div class="alert alert-danger alert-dismissible fade show" role="alert" role="alert">There was an error submitting your form: ' + errMessage + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>');
+        }
       })
       .done(function() {
         console.log("Done");

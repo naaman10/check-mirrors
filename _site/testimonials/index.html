@@ -48,16 +48,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   <link rel="stylesheet" href="/css/main.css" type="text/css">
   <link rel="alternate" type="application/rss+xml" title="checkmirrors" href="http://localhost:4000/feed.xml">
-  <script type="text/javascript">
-(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
-
-// Enabling the debug mode flag is useful during implementation,
-// but it's recommended you remove it for production
-mixpanel.init('666dcd0cf37faa23a64ad40f6e0129b2', {debug: true}); 
-mixpanel.track('Sign up');
-</script>
 </head>
 
 
@@ -92,8 +82,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -111,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="nav-link" href="" aria-label="Home" tabindex="0">Home</a>
           </li>
           <li class="nav-item submenu dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive <i class="fas fa-caret-down" tabindex="1"></i></a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive <i class="fas fa-caret-down" tabindex="1"></i></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="/driving-lessons-york/" aria-label="Lessons in York">Lessons in York</a>
               <a class="dropdown-item" href="/covid-19-update/" aria-label="COVID-19 Update">COVID-19 Update</a>
@@ -123,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="nav-link" href="/gift-vouchers/" aria-label="Gift Vouchers" tabindex="0">Vouchers</a>
           </li> -->
           <li class="nav-item submenu dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Instructors
             <i class="fas fa-caret-down"></i></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -133,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </li>
           <li class="nav-item">
-            <button class="btn btn-primary btn-sm btn-responsive" data-toggle="modal" data-target="#bookFormModal" aria-label="Book now">Book Now</button>
+            <button class="primary-btn btn btn-bg btn-responsive" data-bs-toggle="modal" data-bs-target="#bookFormModal" aria-label="Book now">Book Now</button>
           </li>
         </ul>
         </div>
@@ -167,7 +157,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="col-lg-8">
       <div class="text-center mb-3">
         <h2 class="mb-3">Book from only £30 per hour or 10 lessons for £290</h2>
-        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#bookFormModal">Book Now</button>
+        <button class="primary-btn btn-bg btn" data-bs-toggle="modal" data-bs-target="#bookFormModal">Book Now</button>
       </div>
     </div>
   </div>
@@ -208,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             06 October 2020
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/10/06/congratulations-to-melissa-buckley/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/10/06/congratulations-to-melissa-buckley/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -227,7 +217,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             10 September 2020
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/09/10/hetti-riding/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/09/10/hetti-riding/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -246,7 +236,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             21 August 2020
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/08/21/congratulations-to-rebecca-chaulkley-york-who-passed-today-first-time-with-only-2-minors/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/08/21/congratulations-to-rebecca-chaulkley-york-who-passed-today-first-time-with-only-2-minors/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -265,7 +255,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             11 August 2020
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/08/11/leon-andrews-york/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/08/11/leon-andrews-york/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -284,7 +274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             05 August 2020
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/08/05/congratulations-to-lucy-ross-york-who-passed-first-time-today-with-just-6-minors/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2020/08/05/congratulations-to-lucy-ross-york-who-passed-first-time-today-with-just-6-minors/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -303,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             09 April 2019
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2019/04/09/congratulations-to-adam-welsh-york-who-passed-yesterday-first-time-with-only-4-minors/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2019/04/09/congratulations-to-adam-welsh-york-who-passed-yesterday-first-time-with-only-4-minors/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -322,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             30 October 2018
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2018/10/30/luke-swainsbury-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2018/10/30/luke-swainsbury-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -341,7 +331,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             26 September 2018
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2018/09/26/beth-loseby/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2018/09/26/beth-loseby/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -360,7 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             16 December 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/12/16/rachel-mccarthy/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/12/16/rachel-mccarthy/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -379,7 +369,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             16 December 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/12/16/andy-gregory/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/12/16/andy-gregory/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -398,7 +388,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             21 February 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/02/21/kylie-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/02/21/kylie-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -417,7 +407,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             11 February 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/02/11/bridie-murray-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/02/11/bridie-murray-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -436,7 +426,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             07 February 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/02/07/keira-hall-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/02/07/keira-hall-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -455,7 +445,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             30 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/30/andrew-mirelman-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/30/andrew-mirelman-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -474,7 +464,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             27 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/27/mariam-musa-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/27/mariam-musa-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -493,7 +483,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             19 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/19/nathan-van-hese-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/19/nathan-van-hese-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -512,7 +502,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             18 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/18/sophie-coulthard-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/18/sophie-coulthard-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -531,7 +521,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             18 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/18/amy-mallen-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/18/amy-mallen-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -550,7 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             17 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/17/ismail-sisman-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/17/ismail-sisman-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -569,7 +559,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             16 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/16/megan-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/16/megan-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -588,7 +578,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             12 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/12/sophie-scott-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/12/sophie-scott-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -607,7 +597,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             11 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/11/tyler-holmes-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/11/tyler-holmes-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -626,7 +616,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             10 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/10/macsim-vasile-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/10/macsim-vasile-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -645,7 +635,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             10 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/10/harriotte-clemet-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/10/harriotte-clemet-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -664,7 +654,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             09 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/09/rob-ferguson-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/09/rob-ferguson-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -683,7 +673,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="card-text">
             04 January 2017
           </p>
-          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/04/Seb-Swenson-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u=/testimonials/2017/01/04/Seb-Swenson-pass/" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
@@ -759,14 +749,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 
-    <div class="modal fade" id="bookFormModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="bookFormModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Book lessons with checkmirrors</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title" id="contactModal">Book lessons with checkmirrors</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         
@@ -815,7 +803,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p class="small">Receive emails from checkmirrors about news & offers.</p>
     </label>
   </div>
-  <button class="btn btn-primary btn-responsive" type="submit" id="bookFormSubmit">Submit</button>
+  <button class="primary-btn btn btn-bg btn-responsive" type="submit" id="bookFormSubmit">Submit</button>
   <br>
   <p class="small"><span class="required">*</span> Indicates required fields</p>
 
@@ -844,8 +832,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/js/popper.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="/js/jquery.background-video.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/jquery.validate.min.js"></script>
