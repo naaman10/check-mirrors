@@ -21,9 +21,9 @@ fields:
       required: false
     label: Feature Text
   config:
-    min:
-    max:
-    labelField:
+    min: 
+    max: 
+    labelField: 
   label: Features
 - name: template
   type: text

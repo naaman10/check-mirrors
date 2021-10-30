@@ -116,3 +116,5 @@ fields:
     type: boolean
     label: Active
   label: Details Section
+pages:
+- become-an-instructor/index.html
