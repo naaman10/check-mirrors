@@ -3,10 +3,10 @@
   <channel>
     <title>checkmirrors</title>
     <description>Learn to drive in York and the surrounding area. Female Instructors, NHS Discount &amp; Pass Plus options available in York. We are fully COVID secure.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Oct 2021 08:18:56 +0000</pubDate>
-    <lastBuildDate>Sat, 30 Oct 2021 08:18:56 +0000</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Oct 2021 10:44:08 +0000</pubDate>
+    <lastBuildDate>Sat, 30 Oct 2021 10:44:08 +0000</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;p&gt;Well done Melissa, apologies for the late post. Safe driving.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2020/10/06/congratulations-to-melissa-buckley/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2020/10/06/congratulations-to-melissa-buckley/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2020/10/06/congratulations-to-melissa-buckley/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2020/10/06/congratulations-to-melissa-buckley/</guid>
         
         
         <category>Testimonials</category>
@@ -35,8 +35,8 @@
 &lt;p&gt;Well done Hetti, safe driving.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2020/09/10/hetti-riding/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2020/09/10/hetti-riding/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2020/09/10/hetti-riding/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2020/09/10/hetti-riding/</guid>
         
         
         <category>Testimonials</category>
@@ -50,8 +50,8 @@
 &lt;p&gt;Well done Rebecca, safe driving.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2020/08/21/congratulations-to-rebecca-chaulkley-york-who-passed-today-first-time-with-only-2-minors/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2020/08/21/congratulations-to-rebecca-chaulkley-york-who-passed-today-first-time-with-only-2-minors/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2020/08/21/congratulations-to-rebecca-chaulkley-york-who-passed-today-first-time-with-only-2-minors/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2020/08/21/congratulations-to-rebecca-chaulkley-york-who-passed-today-first-time-with-only-2-minors/</guid>
         
         
         <category>Testimonials</category>
@@ -63,8 +63,8 @@
         <description>
 </description>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2020/08/11/leon-andrews-york/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2020/08/11/leon-andrews-york/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2020/08/11/leon-andrews-york/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2020/08/11/leon-andrews-york/</guid>
         
         
         <category>Testimonials</category>
@@ -76,8 +76,8 @@
         <description>&lt;p&gt;“Sarah is amazing! Having started with another instructor, I was still very nervous behind the wheel. Sarah made me feel at ease immediately and has really built my confidence every lesson. She not only made me feel safe and secure in lessons, but made them fun too and she turned driving into something I genuinely enjoy. I would recommend Sarah and Checkmirrors to anybody looking for an instructor - especially if you have some nerves on the road!”&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Aug 2020 23:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2020/08/05/congratulations-to-lucy-ross-york-who-passed-first-time-today-with-just-6-minors/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2020/08/05/congratulations-to-lucy-ross-york-who-passed-first-time-today-with-just-6-minors/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2020/08/05/congratulations-to-lucy-ross-york-who-passed-first-time-today-with-just-6-minors/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2020/08/05/congratulations-to-lucy-ross-york-who-passed-first-time-today-with-just-6-minors/</guid>
         
         
         <category>Testimonials</category>
@@ -89,8 +89,8 @@
         <description>&lt;p&gt;“Thanks to Rob from Checkmirrors I passed first time with only 4 minors. Rob is a great driving instructor, easy to get along with, I’d definitely recommend. Thanks again Rob”&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Apr 2019 07:56:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2019/04/09/congratulations-to-adam-welsh-york-who-passed-yesterday-first-time-with-only-4-minors/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2019/04/09/congratulations-to-adam-welsh-york-who-passed-yesterday-first-time-with-only-4-minors/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2019/04/09/congratulations-to-adam-welsh-york-who-passed-yesterday-first-time-with-only-4-minors/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2019/04/09/congratulations-to-adam-welsh-york-who-passed-yesterday-first-time-with-only-4-minors/</guid>
         
         
         <category>Testimonials</category>
@@ -103,8 +103,8 @@
 Thanks again”&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2018 15:31:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2018/10/30/luke-swainsbury-pass/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2018/10/30/luke-swainsbury-pass/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2018/10/30/luke-swainsbury-pass/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2018/10/30/luke-swainsbury-pass/</guid>
         
         
         <category>Testimonials</category>
@@ -116,8 +116,8 @@ Thanks again”&lt;/p&gt;
         <description>&lt;p&gt;“Couldn’t recommend Rob from Checkmirrors driving school enough, after struggling with driving for months before taking lessons with him, I noticed a change straight away and passed first time!”&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2018/09/26/beth-loseby/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2018/09/26/beth-loseby/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2018/09/26/beth-loseby/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2018/09/26/beth-loseby/</guid>
         
         
         <category>Testimonials</category>
@@ -129,8 +129,8 @@ Thanks again”&lt;/p&gt;
         <description>
 </description>
         <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2017/12/16/rachel-mccarthy/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2017/12/16/rachel-mccarthy/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2017/12/16/rachel-mccarthy/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2017/12/16/rachel-mccarthy/</guid>
         
         
         <category>Testimonials</category>
@@ -142,8 +142,8 @@ Thanks again”&lt;/p&gt;
         <description>
 </description>
         <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/testimonials/2017/12/16/andy-gregory/</link>
-        <guid isPermaLink="true">http://localhost:4000/testimonials/2017/12/16/andy-gregory/</guid>
+        <link>http://0.0.0.0:4000/testimonials/2017/12/16/andy-gregory/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/testimonials/2017/12/16/andy-gregory/</guid>
         
         
         <category>Testimonials</category>

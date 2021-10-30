@@ -72,6 +72,9 @@ $font-body: 'Open Sans', sans-serif;
 body {
   background-color: $background-grey;
 }
+html {
+  scroll-behavior: smooth;
+}
 .title-a,
 a .title-a {
   color: #F41822;
@@ -450,9 +453,8 @@ label.error {
   }
 }
 @media screen and (max-width: 991px) {
-  .navbar-brand .title-a,  .navbar-brand .title-b {
-    -webkit-text-stroke: 0;
-    font-weight: 400;
+  .navbar-brand h2 {
+  padding-top: 5px;
   }
   .header_area .navbar {
     border-radius: 12px;

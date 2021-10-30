@@ -5,14 +5,14 @@ layout: default
 
 <section class="container my-4">
   <div class="row">
-    <div class="col-8">
+    <div class="col-md-8 col-xs-12">
       <article class="post clear-bg" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>
       </article>
     </div>
-    <div class="col-4">
+    <div class="col-md-4 col-xs-12">
       <div class="register_form">
         <h3>Get in touch</h3>
         <p>Kick start your new career now.</p>
@@ -33,34 +33,4 @@ layout: default
       </div>
     </div>
   </div>
-</section>
-
-<section>
-    <div class="row">
-
-
-      {% case page.part %}
-        {% when 1 %}
-        <div class="col">
-          <a href="#">Explore part 2</a>
-        </div>
-        <div class="col">
-          <a href="#">Explore part 3</a>
-        </div>
-        {% when 2 %}
-        <div class="col">
-          <a href="#">Explore part 1</a>
-        </div>
-        <div class="col">
-          <a href="#">Explore part 3</a>
-        </div>
-        {% when 3 %}
-        <div class="col">
-          <a href="#">Explore part 1</a>
-        </div>
-        <div class="col">
-          <a href="#">Explore part 2</a>
-        </div>
-      {% endcase %}
-    </div>
 </section>

@@ -11,7 +11,7 @@
           <div class="card-body">
             <h2 class="mb-9">{{ block.title }}</h2>
             <p class="mb-9">{{ block.text | markdownify }}</p>
-            {% if block.button.button_text %}
+            {% if block.button.button_text > "" %}
             <a class="primary-btn btn-bg mt-1" href="{{ site.github.url }}{{ block.button.button_link }}">{{ block.button.button_text }}<i class="ti-arrow-right ml-1"></i></a>
             {% endif %}
           </div>
@@ -20,3 +20,15 @@
     </div>
   </div>
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ block.title }}",
+  "description": "{{ block.text }}",
+  "uploadDate": "2021-10-30T08:00:00+02:00",
+  "duration": "PT2M55S",
+  "contentUrl": "block.youtube_url",
+}
+</script>

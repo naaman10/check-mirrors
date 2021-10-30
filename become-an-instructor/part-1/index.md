@@ -40,10 +40,17 @@ First is a multiple-choice test where you have to get an overall score of 85 out
 
 Second is the hazard perception test where you watch a selection of videos and spot the hazard by clicking on a mouse. To pass the hazard perception test you need to score at least 57 points out of 75.
 
-## The Test
+### The Test
 
 Both tests are taken at the same time and you have to pass both together, you can’t pass one and then resit the second.
 
 It costs £81 and if you fail you can rebook it, but, with the correct study materials and lots of homework it’s very doable.
 
 When you're ready to sit your test, you can book it directly with the [DVSA website](https://www.gov.uk/book-your-instructor-theory-test).
+
+### Books to help you learn
+
+* <a href="https://www.amazon.co.uk/DVSA-Official-2015-Highway-Code/dp/0115533427/ref=sr_1_1" target="_blank">The Official DVSA Highway Code</a>
+* <a href="https://www.amazon.co.uk/traffic-signs-Driving-Skills-Britain/dp/B015HVK70O/ref=sr_1_1" target="_blank">Know your traffic signs - Department for Transport</a>
+* <a href="https://www.amazon.co.uk/official-DVSA-guide-driving-essential/dp/0115537015/ref=sr_1_1" target="_blank">The official DVSA guide to driving: the essential skills</a>
+* <a href="https://www.amazon.co.uk/Driving-Instructors-Handbook-John-Miller/dp/1398602787/ref=sr_1_1" target="_blank">The Driving Instructor's Handbook</a>
