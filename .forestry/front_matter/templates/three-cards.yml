@@ -58,3 +58,10 @@ fields:
     max: 
     labelField: 
   label: cards
+- name: template
+  type: text
+  config:
+    required: false
+  label: Template
+  default: three-cards
+  hidden: true
