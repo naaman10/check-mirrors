@@ -17,7 +17,9 @@
           <p class="card-text text-center">
             {{ card.card_text | markdownify }}
           </p>
-          <a href="{{ site.github.url }}/{{ card.card_button.button_link }}" class="primary-btn btn-bg">{{ card.card_button.button_text }}</a>
+          <div class="d-grid gap-2">
+          <a href="{{ site.github.url }}/{{ card.card_button.button_link }}" class="primary-btn btn-bg btn-block">{{ card.card_button.button_text }}</a>
+        </div>
         </div>
       </div>
     </div>

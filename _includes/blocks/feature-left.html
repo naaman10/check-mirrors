@@ -11,7 +11,9 @@
           <div class="card-body">
             <h2 class="mb-9">{{ block.title }}</h2>
             <p class="mb-9">{{ block.text | markdownify }}</p>
+            {% if block.button.button_text %}
             <a class="primary-btn btn-bg mt-1" href="{{ site.github.url }}{{ block.button.button_link }}">{{ block.button.button_text }}<i class="ti-arrow-right ml-1"></i></a>
+            {% endif %}
           </div>
         </div>
       </div>
