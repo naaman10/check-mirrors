@@ -43,11 +43,14 @@ fields:
     label: YouTube Url
     default: https://www.youtube.com/embed/Y0E972YNdCI
   label: Intro Section
-- name: three_cards
-  type: include
-  config: {}
-  template: three-cards
-  label: Three Cards
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - three-cards
+  config:
+    min:
+    max:
 - name: whats_included
   type: field_group
   config: {}
@@ -71,8 +74,8 @@ fields:
         required: false
       label: Feature Text
     config:
-      min: 
-      max: 
+      min:
+      max:
       labelField: feature_text
     label: Features
   label: Whats Included
