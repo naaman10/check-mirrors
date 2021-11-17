@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function() {
     $(this).toggleClass('open');
@@ -18,6 +19,9 @@ $(document).ready(function() {
     event.preventDefault();
     $('#bookFormModal').modal('show');
   });
+  var url = window.location.pathname;
+  console.log(url);
+  document.getElementById('pageUrl').value = url;
 });
 
 var today, datepicker;
@@ -29,90 +33,7 @@ var today, datepicker;
 				width: '160',
 				format: 'dd/mm/yyyy'
     });
-//booking form submit
-
-$("#bookForm").validate({
-  errorClass: "error",
-  validClass: "success",
-  rules: {
-    firstname: "required",
-    lastname: "required",
-    number: "required",
-    email: {
-      required: true,
-      email: true
-    }
-  },
-  submitHandler: function() {
-    var contactFirstName = $("#firstName").val();
-    var contactLastName = $("#lastName").val();
-    var contactEmail = $("#emailAddress").val();
-    var contactStartDate = $("#startDate").val();
-    var contactComments = $("#comments").val();
-    var contactNumber = $("#contactNumber").val();
-    var marketConsent = $("#marketCheck").prop('checked');
-    event.preventDefault();
-    var contactForm = {
-      "fields": [{
-          "name": "firstname",
-          "value": contactFirstName
-        },
-        {
-          "name": "lastname",
-          "value": contactLastName
-        },
-        {
-          "name": "email",
-          "value": contactEmail
-        },
-        {
-          "name": "phone",
-          "value": contactNumber
-        },
-        {
-          "name": "start_date",
-          "value": contactStartDate
-        },
-        {
-          "name": "comments",
-          "value": contactComments
-        },
-        {
-          "name": "marketing_consent",
-          "value": marketConsent
-        }
-      ]
-    }
-    $.ajax({
-        url: 'https://api.hsforms.com/submissions/v3/integration/submit/5357756/aae7163f-7c3d-447b-af1a-7b16229a8c81',
-        type: 'POST',
-        dataType: 'json',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-        beforeSend: function() {
-          $("#bookForm").hide();
-          $(".alert").remove();
-          $("#busy").show();
-        },
-        success: function() {
-          $("#busy").replaceWith('<div class="row"><div class="col"><div class="completeMessage"><h2>Message received! 👍</h2><p>One of the team will be in touch soon.</p></div></div></div>');
-        },
-        data: JSON.stringify(contactForm),
-        error: function(xhr,status,errors) {
-            console.log(status);
-            var errMessage = xhr.responseJSON.errors[0].errorType;
-            $("#busy").hide();
-            $("#bookForm").show().parent().prepend('<div class="alert alert-danger alert-dismissible fade show" role="alert" role="alert">There was an error submitting your form: ' + errMessage + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>');
-        }
-      })
-      .done(function() {
-        console.log("Done");
-      });
-  }
-});
-
+//instructor form submit
   $("#instructorForm").validate({
   errorClass: "error",
   validClass: "success",
@@ -129,6 +50,7 @@ $("#bookForm").validate({
    var instructPhone = $("#instructPhone").val();
    var instructEmail = $("#instructEmail").val();
    var instructComments = $("#instructComments").val();
+   var pageUrl = $("#pageUrl").val();
    var instructForm = {
      "fields": [
        {
@@ -162,7 +84,13 @@ $("#bookForm").validate({
  			success: function() {
  					$("#instructDone").replaceWith('<div class="row"><div class="col"><div class="completeMessage"><h2>Message received! 👍</h2><p>One of the team will be in touch soon.</p></div></div></div>');
  			},
-       data: JSON.stringify(instructForm)
+       data: JSON.stringify(instructForm),
+       error: function(xhr,status,errors) {
+           console.log(status);
+           var errMessage = xhr.responseJSON.errors[0].errorType;
+           $("#busy").hide();
+           $("#instructorForm").show().parent().prepend('<div class="alert alert-danger alert-dismissible fade show" role="alert" role="alert">There was an error submitting your form: ' + errMessage + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>');
+       }
    })
    .done(function() {
  		console.log("Done");
@@ -182,3 +110,23 @@ $(document).ready(function() {
     });
   }
 });
+
+$(':checkbox').change(function() {
+  if (this.checked) {
+    $(this).val("true");
+  } else {
+    $(this).val("false");
+  }
+});
+
+function getDays () {
+  var mon = $('#availMonday').val();
+  var tues = $('#availTuesday').val();
+  var weds = $('#availWednesday').val();
+  var thurs = $('#availThursday').val();
+  var fri = $('#availFriday').val();
+  var sat = $('#availSaturday').val();
+  var sun = $('#availSunday').val();
+  var availDays = 'days: Mon: ' + mon + ' Tues: ' + tues + ' Weds: ' + weds + ' Thurs: ' + thurs + ' Fri: ' + fri + ' Sat: ' + sat + ' Sun: ' + sun + '.';
+  return availDays;
+}

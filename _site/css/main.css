@@ -1571,6 +1571,10 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 
 .youtube-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.hs-button { background-color: #fdc632 !important; }
+
+.hubspot-link__container { display: none; }
+
 #busy { display: none; }
 
 @media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } .model-content { border: none !important; border-radius: 0 !important; } }
