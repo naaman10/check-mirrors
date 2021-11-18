@@ -110,23 +110,3 @@ $(document).ready(function() {
     });
   }
 });
-
-$(':checkbox').change(function() {
-  if (this.checked) {
-    $(this).val("true");
-  } else {
-    $(this).val("false");
-  }
-});
-
-function getDays () {
-  var mon = $('#availMonday').val();
-  var tues = $('#availTuesday').val();
-  var weds = $('#availWednesday').val();
-  var thurs = $('#availThursday').val();
-  var fri = $('#availFriday').val();
-  var sat = $('#availSaturday').val();
-  var sun = $('#availSunday').val();
-  var availDays = 'days: Mon: ' + mon + ' Tues: ' + tues + ' Weds: ' + weds + ' Thurs: ' + thurs + ' Fri: ' + fri + ' Sat: ' + sat + ' Sun: ' + sun + '.';
-  return availDays;
-}
