@@ -2,7 +2,7 @@
 title: Congratulations to Adam Welsh, York who passed yesterday first time with only
   4 minors.
 date: 2019-04-09 07:56:00 Z
-image: "/uploads/adam-walsh.jpg"
+image: "/v1637591503/checkmirrors/adam-walsh.jpg"
 year: 2019
 layout: post
 name: Adam Welsh

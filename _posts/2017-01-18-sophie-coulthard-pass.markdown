@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Sophie Coulthard who passed first time with Sarah.
 date: 2017-01-18 12:22:00 Z
-image: "/img/testimonial-images/sophie-coulthard.jpg"
+image: "/v1637594993/checkmirrors/sophie-coulthard.jpg"
 year: 2017
 layout: post
 name: Sophie Coulthard

@@ -2,7 +2,7 @@
 title: Congratulations to Andrew Mirelman who passed with Sarah. First time with only
   3 x minors.
 date: 2017-01-30 12:22:00 Z
-image: "/img/testimonial-images/adnrew-mirelman.jpg"
+image: "/v1637594992/checkmirrors/adnrew-mirelman.jpg"
 year: 2017
 layout: post
 name: Andrew Mirelman

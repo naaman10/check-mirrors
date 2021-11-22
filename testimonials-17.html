@@ -48,7 +48,7 @@ tags:
       <a href="{{ site.github.url }}{{ post.url }}">
       <div class="card testimonial-card mt-3">
         <div class="card-img-top">
-          <img src="{{ post.image }}" alt="{{post.title}}">
+          <img src="{{ site.cloudinary_url }}{{ post.image }}" alt="{{post.title}}">
         </div>
         <div class="card-body">
           <p class="card-title"><a class="card-title-link" href="{{ site.github.url }}{{ post.url }}">Congratulations to {{ post.name }}, who passed {% if post.firstTime == true %}first time{% endif %} today.</a></p>

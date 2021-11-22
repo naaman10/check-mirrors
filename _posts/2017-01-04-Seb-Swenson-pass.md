@@ -3,7 +3,7 @@ title: Congratulations to Seb Swenson who passed on 4 January 2017 with Sarah. F
   time with 11 minor faults
 date: 2017-01-04 21:14:23 Z
 layout: post
-image: "/img/testimonial-images/seb-swenson.jpg"
+image: "/v1637594993/checkmirrors/seb-swenson.jpg"
 year: 2017
 name: Seb Swenson
 firstTime: true

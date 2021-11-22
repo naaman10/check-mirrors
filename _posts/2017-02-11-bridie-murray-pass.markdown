@@ -2,7 +2,7 @@
 title: Congratulations to Bridie Murray from York, Passed second time with only 6
   minors
 date: 2017-02-11 12:22:00 Z
-image: "/img/testimonial-images/bridie-murray.jpg"
+image: "/v1637591504/checkmirrors/bridie-murray.jpg"
 year: 2017
 layout: post
 name: Bridie Murray
