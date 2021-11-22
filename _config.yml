@@ -19,6 +19,7 @@ defaults:
     year: ''
     categories: Testimonials
 permalink: pretty
+cloudinary_url: https://res.cloudinary.com/njh101010/image/upload/
 email: checkmirrors@gmail.com
 description: Learn to drive in York and the surrounding area. Female Instructors, NHS Discount & Pass Plus options available in York. We are fully COVID secure.
 corona_status: closed
