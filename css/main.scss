@@ -43,7 +43,7 @@
 /*---------------------------------------------------- */
 @import "owl-carousel/owl.carousel.min.css";
 @import "https://fonts.googleapis.com/css?family=Anton|Roboto:500";
-@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css";
 @import "https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css";
 
 // Our variables
@@ -64,12 +64,16 @@ $primary-text-color: #212121;
 $secondary-text-color: #757575;
 $divider-color: #BDBDBD;
 $background-grey: #F7F9F8;
+$primar-yellow: #fdc632;
 // Font Variables
 $font-header: 'Roboto', sans-serif;
 $font-body: 'Open Sans', sans-serif;
 /* Custom CSS */
 body {
   background-color: $background-grey;
+}
+html {
+  scroll-behavior: smooth;
 }
 .title-a,
 a .title-a {
@@ -296,7 +300,12 @@ section h2 {
 .home_banner_area .banner_inner .banner_content p {
   color: white;
 }
-
+.primary-btn {
+  border: 2px solid $primar-yellow;
+}
+.primary-btn.btn-bg:hover {
+  border: 2px solid #002347;
+}
 .btn-primary {
   background-color: #388E3C !important;
   border-color: #388E3C !important;
@@ -342,6 +351,7 @@ ul.home-features {
   background-color: #FFC107;
   border-color: #FFC107;
   color: white;
+  padding-top: 5px;
 }
 .event-link {
   color: #FFC107;
@@ -391,6 +401,15 @@ label.error {
 	width: 100%;
 	height: 100%;
 }
+.hs-button {
+  background-color: #fdc632!important;
+}
+.hubspot-link__container {
+  display: none;
+}
+#busy {
+  display: none;
+}
 @media screen and (max-width: 480px) {
   .nav-item .btn {
     width: 100%;
@@ -425,6 +444,10 @@ label.error {
     margin: 0;
     height: 100%;
   }
+  .model-content {
+    border: none!important;
+    border-radius: 0!important;
+  }
 }
 .pride {
   img {
@@ -436,9 +459,8 @@ label.error {
   }
 }
 @media screen and (max-width: 991px) {
-  .navbar-brand .title-a,  .navbar-brand .title-b {
-    -webkit-text-stroke: 0;
-    font-weight: 400;
+  .navbar-brand h2 {
+  padding-top: 5px;
   }
   .header_area .navbar {
     border-radius: 12px;

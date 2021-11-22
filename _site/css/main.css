@@ -9,7 +9,7 @@
 /*----------------------------------------------------*/
 @import url(owl-carousel/owl.carousel.min.css);
 @import "https://fonts.googleapis.com/css?family=Anton|Roboto:500";
-@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css";
 @import "https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css";
 body { line-height: 25px; font-size: 16px; font-family: "Roboto", sans-serif; font-weight: 400; color: #7b838a; }
 
@@ -1433,6 +1433,8 @@ h6 { font-size: 14px; }
 /* Custom CSS */
 body { background-color: #F7F9F8; }
 
+html { scroll-behavior: smooth; }
+
 .title-a, a .title-a { color: #F41822; }
 
 .title-b, a .title-b { color: #0A9444; }
@@ -1525,6 +1527,10 @@ section h2 { font-size: 36px; }
 
 .home_banner_area .banner_inner .banner_content h3, .home_banner_area .banner_inner .banner_content p { color: white; }
 
+.primary-btn { border: 2px solid #fdc632; }
+
+.primary-btn.btn-bg:hover { border: 2px solid #002347; }
+
 .btn-primary { background-color: #388E3C !important; border-color: #388E3C !important; }
 
 .btn-primary:hover { background-color: #FFC107 !important; border-color: #FFC107 !important; }
@@ -1547,7 +1553,7 @@ ul.home-features { padding-left: 0px !important; }
 
 .namo, .namo h5 { color: white; }
 
-.input-group-append, .input-group-text { background-color: #FFC107; border-color: #FFC107; color: white; }
+.input-group-append, .input-group-text { background-color: #FFC107; border-color: #FFC107; color: white; padding-top: 5px; }
 
 .event-link { color: #FFC107; }
 
@@ -1565,13 +1571,19 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 
 .youtube-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } }
+.hs-button { background-color: #fdc632 !important; }
+
+.hubspot-link__container { display: none; }
+
+#busy { display: none; }
+
+@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } .model-content { border: none !important; border-radius: 0 !important; } }
 
 .pride img { width: 80px; }
 
 .pride span { display: block; margin-top: 10px; }
 
-@media screen and (max-width: 991px) { .navbar-brand .title-a, .navbar-brand .title-b { -webkit-text-stroke: 0; font-weight: 400; } .header_area .navbar { border-radius: 12px; margin: 5px; box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); } .header_area.navbar_fixed .main_menu { box-shadow: none; background-color: transparent; } }
+@media screen and (max-width: 991px) { .navbar-brand h2 { padding-top: 5px; } .header_area .navbar { border-radius: 12px; margin: 5px; box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); } .header_area.navbar_fixed .main_menu { box-shadow: none; background-color: transparent; } }
 
 @media screen and (max-width: 1024px) { .testimonial-card .card-title { height: 64px; } }
 

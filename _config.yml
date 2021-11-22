@@ -34,5 +34,3 @@ year:
 pass-date:
 include:
 - ".htaccess"
-plugins:
-  - jekyll-liquify
