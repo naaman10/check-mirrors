@@ -112,7 +112,7 @@ h2 .title-b {
 }
 
 h1 span.title-b {
-  background-image: url("https://www.checkmirrors.co.uk/img/eyes.png");
+  background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675258/checkmirrors/eyes.png");
   background-size: 23px 26px;
   background-repeat: no-repeat;
   background-position-x: 44px;
@@ -120,7 +120,7 @@ h1 span.title-b {
 }
 
 h2 .title-b {
-  background-image: url("https://www.checkmirrors.co.uk/img/eyes.png");
+  background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675258/checkmirrors/eyes.png");
   background-size: 23px 25px;
   background-repeat: no-repeat;
   background-position-x: 47px;
@@ -218,7 +218,7 @@ section h2 {
     margin-left: 10px;
 }
 .home_banner_area {
-  background-image: url("{{site.github.url}}/img/home-new2.jpg");
+  background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675034/checkmirrors/home-new2.jpg");
   color: white;
 }
 
@@ -334,7 +334,7 @@ ul.home-features {
   list-style: none;
 }
 .banner_area {
-  background-image: url('{{site.github.url}}/img/home-new.jpeg');
+  background-image: url('https://res.cloudinary.com/njh101010/image/upload/v1637675034/checkmirrors/home-new.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   h1 {

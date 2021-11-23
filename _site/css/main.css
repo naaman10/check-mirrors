@@ -161,7 +161,7 @@ button:focus { outline: none; box-shadow: none; }
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
-.home_banner_area { z-index: 1; min-height: 900px; position: relative; background: url(../img/banner/home-banner.jpg) no-repeat center; background-size: cover; }
+.home_banner_area { z-index: 1; min-height: 900px; position: relative; background-size: cover; }
 
 .home_banner_area .banner_inner { position: absolute; top: 40%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); z-index: 10; width: 100%; }
 
@@ -175,7 +175,7 @@ button:focus { outline: none; box-shadow: none; }
 
 .blog_banner .banner_inner { background: #04091e; position: relative; overflow: hidden; width: 100%; min-height: 780px; z-index: 1; }
 
-.blog_banner .banner_inner .overlay { background: url(../img/banner/banner-2.jpg) no-repeat center center; opacity: 0.5; height: 125%; position: absolute; left: 0px; top: 0px; width: 100%; z-index: -1; }
+.blog_banner .banner_inner .overlay { opacity: 0.5; height: 125%; position: absolute; left: 0px; top: 0px; width: 100%; z-index: -1; }
 
 .blog_banner .banner_inner .blog_b_text { max-width: 700px; margin: auto; color: #fff; margin-top: 40px; }
 
@@ -185,7 +185,7 @@ button:focus { outline: none; box-shadow: none; }
 
 .blog_banner .banner_inner .blog_b_text #ffffff_bg_btn { line-height: 42px; padding: 0px 45px; }
 
-.banner_area { position: relative; background: url(../img/banner/banner.jpg) no-repeat center center; z-index: 1; min-height: 392px; padding-top: 0 !important; }
+.banner_area { position: relative; z-index: 1; min-height: 392px; padding-top: 0 !important; }
 
 .banner_area .banner_inner { position: relative; overflow: hidden; width: 100%; min-height: 392px; z-index: 1; }
 
@@ -1447,9 +1447,9 @@ h1 .title-c { display: block; font-size: 24px; color: white; }
 
 h2 .title-a, h2 .title-b { font-size: 34px; letter-spacing: 2px; font-family: "Roboto", sans-serif; }
 
-h1 span.title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png"); background-size: 23px 26px; background-repeat: no-repeat; background-position-x: 44px; background-position-y: 10px; }
+h1 span.title-b { background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675258/checkmirrors/eyes.png"); background-size: 23px 26px; background-repeat: no-repeat; background-position-x: 44px; background-position-y: 10px; }
 
-h2 .title-b { background-image: url("https://www.checkmirrors.co.uk/img/eyes.png"); background-size: 23px 25px; background-repeat: no-repeat; background-position-x: 47px; background-position-y: 10px; }
+h2 .title-b { background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675258/checkmirrors/eyes.png"); background-size: 23px 25px; background-repeat: no-repeat; background-position-x: 47px; background-position-y: 10px; }
 
 section h2 { font-size: 36px; }
 
@@ -1489,7 +1489,7 @@ section h2 { font-size: 36px; }
 
 .nav-link i.fas.fa-caret-down { margin-left: 10px; }
 
-.home_banner_area { background-image: url("/img/home-new2.jpg"); color: white; }
+.home_banner_area { background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675034/checkmirrors/home-new2.jpg"); color: white; }
 
 .home_banner_area:after { position: absolute; content: ""; left: 0; bottom: 0; right: 0; top: 0; background: rgba(0, 0, 0, 0.4); }
 
@@ -1545,7 +1545,7 @@ ul.home-features { padding-left: 0px !important; }
 
 .home-features li { list-style: none; }
 
-.banner_area { background-image: url("/img/home-new.jpeg"); background-size: cover; background-repeat: no-repeat; }
+.banner_area { background-image: url("https://res.cloudinary.com/njh101010/image/upload/v1637675034/checkmirrors/home-new.jpg"); background-size: cover; background-repeat: no-repeat; }
 
 .banner_area h1 { font-size: 45px; }
 
