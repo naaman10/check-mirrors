@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Amy Mallen who passed with Rob.
 date: 2017-01-18 12:22:00 Z
-image: "/img/testimonial-images/amy-mallen.jpg"
+image: "/v1637594992/checkmirrors/amy-mallen.jpg"
 year: 2017
 layout: post
 name: Amy Mallen

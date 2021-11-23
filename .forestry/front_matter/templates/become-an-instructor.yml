@@ -43,6 +43,14 @@ fields:
     label: YouTube Url
     default: https://www.youtube.com/embed/Y0E972YNdCI
   label: Intro Section
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - three-cards
+  config:
+    min: 
+    max: 
 - name: whats_included
   type: field_group
   config: {}
@@ -109,5 +117,4 @@ fields:
     label: Active
   label: Details Section
 pages:
-- become-an-instructor.html
-- become-an-instructor.html
+- become-an-instructor/index.html

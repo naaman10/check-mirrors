@@ -6,11 +6,11 @@
         <div class="clock_sec">
           {{ page.pass_plus_section.text | markdownify }}
         </div>
-        <a class="btn btn-primary btn-lg" href="{{ page.pass_plus_section.cta.button_link }}">{{ page.pass_plus_section.cta.button_text }}</a>
+        <a class="primary-btn" href="{{ page.pass_plus_section.cta.button_link }}">{{ page.pass_plus_section.cta.button_text }}</a>
       </div>
     </div>
     <div class="col-12 col-sm-12 col-md-4">
-      <img class="img-fluid" src="{{ site.github.url }}{{ page.pass_plus_section.image.image }}" alt="{{ page.pass_plus_section.image.image_alt }}">
+      <img class="img-fluid" src="{{ site.cloudinary_url }}{{ page.pass_plus_section.image.image }}" alt="{{ page.pass_plus_section.image.image_alt }}">
     </div>
   </div>
 </div>

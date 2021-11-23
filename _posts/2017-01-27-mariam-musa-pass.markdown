@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Mariam Musa, Harehills, Leeds, who passed with Nick.
 date: 2017-01-27 12:22:00 Z
-image: "/img/testimonial-images/mariam-musa.jpg"
+image: "/v1637594992/checkmirrors/mariam-musa.jpg"
 year: 2017
 layout: post
 name: Mariam Musa
