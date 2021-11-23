@@ -2,7 +2,7 @@
 layout: post
 title: Congratulations Hetti Riding
 date: 10/09/2020
-image: "/v1637591504/checkmirrors/hetti-testimonial.jpg"
+image: "/uploads/hetti-testimonial.jpg"
 year: 2020
 name: Hetti Riding
 firstTime: true

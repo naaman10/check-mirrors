@@ -3,7 +3,7 @@ layout: post
 title: Congratulations to Rebecca Chaulkley, York who passed today first time with
   only 2 minors.
 date: 21/08/2020
-image: "/v1637591506/checkmirrors/rebecca-chaulkley.jpg"
+image: "/uploads/rebecca-chaulkley.jpg"
 year: 2020
 name: Rebecca Chaulkley
 firstTime: true
