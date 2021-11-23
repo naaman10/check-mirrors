@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Nathan Van Hese who passed with Rob.
 date: 2017-01-19 12:22:00 Z
-image: "/v1637594993/checkmirrors/nathan-van-hese.jpg"
+image: "/img/testimonial-images/nathan-van-hese.jpg"
 year: 2017
 layout: post
 name: Nathan Van Hese

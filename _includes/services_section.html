@@ -16,14 +16,14 @@
         <div class="col-md-4 col-xs-12">
           <div class="card mb-3">
             <div class="card-img-top">
-              <img src="{{ site.cloudinary_url }}{{ section_card.card_image }}" alt="{{ section_card.card_title }}">
+              <img src="{{ site.github.url }}{{ section_card.card_image }}" alt="Our fleet">
             </div>
             <div class="card-body">
               <h4 class="card-title"><a>{{ section_card.card_title }}</a></h4>
               <p class="card-text">
-                {{ section_card.card_text | markdownify }}
+                {{ section_card.card_text | liquify | markdownify }}
               </p>
-              <a href="{{ site.github.url }}{{ section_card.card_button.button_link }}" class="primary-btn btn-responsive btn-bg">{{ section_card.card_button.button_text }}</a>
+              <a href="{{ site.github.url }}{{ section_card.card_button.button_link }}" class="btn btn-primary btn-block">{{ section_card.card_button.button_text }}</a>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 title: Congratulations Keira Hall who passed with Rob on the 7th February
 date: 2017-02-07 12:22:00 Z
-image: "/v1637594992/checkmirrors/keira-hall.jpg"
+image: "/img/testimonial-images/keira-hall.jpg"
 year: 2017
 layout: post
 name: Keira Hall

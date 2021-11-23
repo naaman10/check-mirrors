@@ -2,7 +2,7 @@
 title: Congratulations to Harriotte Clemet from York who passed with Sarah, second
   time with only 4 x minors
 date: 2017-01-10 12:22:00 Z
-image: "/v1637594992/checkmirrors/harriotte-clement.jpg"
+image: "/img/testimonial-images/harriotte-clement.jpg"
 year: 2017
 layout: post
 name: Harriotte Clemet

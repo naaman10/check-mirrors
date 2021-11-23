@@ -2,7 +2,7 @@
 title: Congratulations to Tyler Holmes from York who passed with Sarah, first time
   with only 2x minor faults
 date: 2017-01-11 12:22:00 Z
-image: "/v1637594993/checkmirrors/tyler-holmes.jpg"
+image: "/img/testimonial-images/tyler-holmes.jpg"
 year: 2017
 layout: post
 name: Tyler Holmes

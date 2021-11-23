@@ -32,7 +32,7 @@ tags:
     <div class="col-12 col-md-2">
       <a href="{{ site.data.siteData.reviews.google.reviewLink }}" target="_blank">
       <div class="googleReview align-items-center pb-2" id="googleReview">
-        <img class="googleReviewImage" src="https://res.cloudinary.com/njh101010/image/upload/v1637676352/checkmirrors/Google-Logo.png" alt="Google Logo">
+        <img class="googleReviewImage" src="{{ site.github.url }}/img/Google-Logo.png" alt="Google Logo">
         <div class="googleReviewStars">
           <i class="fas fa-star fa-sm"></i><i class="fas fa-star fa-sm"></i><i class="fas fa-star fa-sm"></i><i class="fas fa-star fa-sm"></i><i class="fas fa-star fa-sm"></i><span class="starBack"></span>
         </div>
@@ -48,14 +48,14 @@ tags:
       <a href="{{ site.github.url }}{{ post.url }}">
       <div class="card testimonial-card mt-3">
         <div class="card-img-top">
-          <img src="{{ site.cloudinary_url }}c_fill,g_face:center,h_230,w_392/{{ post.image }}" alt="{{post.title}}">
+          <img src="{{ post.image }}" alt="{{post.title}}">
         </div>
         <div class="card-body">
           <p class="card-title"><a class="card-title-link" href="{{ site.github.url }}{{ post.url }}">Congratulations to {{ post.name }}, who passed {% if post.firstTime == true %}first time{% endif %} today.</a></p>
           <p class="card-text">
             {{ post.date | date_to_long_string }}
           </p>
-          <a class="primary-btn btn-bg" href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ post.url }}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+          <a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ post.url }}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
         </div>
       </div>
       </a>
