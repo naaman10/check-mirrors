@@ -1,6 +1,6 @@
 ---
 title: Driving Instructor Training Guide Part 3
-permalink: /driving-instructor-training-part-3
+permalink: /become-an-instructor/driving-instructor-training-part-3
 description: Become an ADI qualified Driving Instructor in the York area with checkmirrors
   and become part of the family.
 layout: info-page
