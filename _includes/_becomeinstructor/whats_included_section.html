@@ -2,7 +2,7 @@
   <div class="section_gap registration_area">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-4 col-sm-12">
           <h3 class="mb-3">{{ page.whats_included.title }}</h3>
           {% for feature in page.whats_included.features %}
           <div class="row">
@@ -15,24 +15,11 @@
           </div>
           {% endfor %}
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-8 col-sm-12">
           <div class="register_form">
             <h3>Get in touch</h3>
             <p>Kick start your new career now.</p>
-            <form class="form_area" id="instructorForm">
-              <div class="row">
-                <div class="col-lg-12 form_group">
-                  <input class="form-control mb-3" name="name" id="instructName" placeholder="Your Name" type="text" />
-                  <input class="form-control mb-3" name="number" id="instructPhone" placeholder="Your Phone Number" type="tel" />
-                  <input class="form-control mb-3" name="email" id="instructEmail" placeholder="Your Email Address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" type="email" />
-                  <textarea name="comments" class="form-control" id="instructComments" placeholder="Any comments" rows="3"></textarea>
-                </div>
-                <div class="col-lg-12 text-center">
-                  <div id="instructDone"></div>
-                  <button class="primary-btn" type="submit" id="instructorFormSubmit">Submit</button>
-                </div>
-              </div>
-            </form>
+            {% include instructor-form.html %}
           </div>
         </div>
       </div>
