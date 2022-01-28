@@ -3,7 +3,7 @@ title: Congratulations to Rob Ferguson who passed with Nick on 9th January 2017 
   York. 1st time
 layout: post
 date: 2017-01-09 12:22:00 Z
-image: "/v1637594992/checkmirrors/rob-ferguson.jpg"
+image: "/img/testimonial-images/rob-ferguson.jpg"
 year: 2017
 name: Rob Ferguson
 firstTime: true

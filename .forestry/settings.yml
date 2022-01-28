@@ -42,10 +42,10 @@ sections:
 - type: document
   path: pass-plus.html
   label: Pass Plus
-upload_dir: checkmirrors
-public_path: ''
+upload_dir: uploads
+public_path: "/uploads"
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:

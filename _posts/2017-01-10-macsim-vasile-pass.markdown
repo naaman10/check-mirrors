@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Macsim Vasile who passed with Rob.
 date: 2017-01-10 12:22:00 Z
-image: "/v1637594992/checkmirrors/macsim-vasile.jpg"
+image: "/img/testimonial-images/macsim-vasile.jpg"
 year: 2017
 layout: post
 name: Macsim Vasile

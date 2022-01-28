@@ -3,7 +3,7 @@
     <div class="row h_blog_item">
       <div class="col-lg-6">
         <div class="h_blog_img">
-          <img class="img-fluid" src="{{ site.cloudinary_url }}{{ page.intro_section.image }}" alt="Checkmirrors cars" />
+          <img class="img-fluid" src="{{site.github.url}}{{ page.intro_section.image }}" alt="Checkmirrors cars" />
         </div>
       </div>
       <div class="col-lg-6">
@@ -11,7 +11,7 @@
           <div class="card-body">
             <h2 class="mb-9">{{ page.intro_section.heading }}</h2>
             <p class="mb-9">{{ page.intro_section.text | markdownify }}</p>
-            <a class="primary-btn btn-responsive btn-bg mt-1" href="{{ site.github.url }}{{ page.intro_section.cta.button_link }}">{{ page.intro_section.cta.button_text }} <i class="ti-arrow-right ml-1"></i></a>
+            <a class="primary-btn mt-1" href="{{ site.github.url }}{{ page.intro_section.cta.button_link }}">{{ page.intro_section.cta.button_text }} <i class="ti-arrow-right ml-1"></i></a>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Beth Loseby, York who passed with Rob.
 date: 2018-09-26 00:00:00 Z
-image: "/v1637591506/checkmirrors/testimonial2018.jpg"
+image: "/uploads/testimonial2018.jpg"
 year: 2018
 layout: post
 name: Beth Loseby

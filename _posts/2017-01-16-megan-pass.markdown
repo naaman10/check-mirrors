@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Megan who passed first time with Rob.
 date: 2017-01-16 12:22:00 Z
-image: "/v1637594992/checkmirrors/megan-rob.jpg"
+image: "/img/testimonial-images/megan-rob.jpg"
 year: 2017
 layout: post
 name: Megan

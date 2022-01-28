@@ -1,7 +1,7 @@
 ---
 title: Congratulations to Ismail Sisman who passed with Rob first time.
 date: 2017-01-17 12:22:00 Z
-image: "/v1637594992/checkmirrors/ismail-sisman.jpg"
+image: "/img/testimonial-images/ismail-sisman.jpg"
 year: 2017
 layout: post
 name: Ismail Sisman
