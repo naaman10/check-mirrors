@@ -20,7 +20,7 @@ defaults:
     categories: Testimonials
 permalink: pretty
 email: checkmirrors@gmail.com
-description: Learn to drive in York and the surrounding area. Female Instructors, NHS Discount & Pass Plus options available in York. We are fully COVID secure.
+description: Learn to drive in York and the surrounding area. Female Instructors, Manual and Automatic, NHS Discount & Pass Plus options available in York. We are fully COVID secure.
 corona_status: closed
 corona_open_title: "We are open"
 corona_open_text: "checkmirrors is still open for lessons, this will be continuously reviewed as per government guidance."
@@ -34,5 +34,3 @@ year:
 pass-date:
 include:
 - ".htaccess"
-plugins:
-  - jekyll-liquify

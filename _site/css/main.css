@@ -91,7 +91,7 @@ button:focus { outline: none; box-shadow: none; }
 
 .header_area .navbar .nav .nav-item { margin-right: 45px; }
 
-.header_area .navbar .nav .nav-item .nav-link { font: 500 16px/80px "Roboto", sans-serif; text-transform: capitalize; color: white; padding: 0px; display: inline-block; }
+.header_area .navbar .nav .nav-item .nav-link { font: 500 16px/80px "Roboto", sans-serif; text-transform: uppercase; color: white; padding: 0px; display: inline-block; }
 
 @media (max-width: 991px) { .header_area .navbar .nav .nav-item .nav-link { color: black; } }
 
@@ -1342,7 +1342,7 @@ h6 { font-size: 14px; }
 /*----------------------------------------------------*/
 /* Main Button Area css
 ============================================================================================ */
-.primary-btn { display: inline-block; background: #fdc632; padding: 0px 48px; color: #002347; font-size: 13px; font-weight: 500; line-height: 50px; border-radius: 5px; outline: none !important; text-align: center; text-transform: uppercase; cursor: pointer; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
+.primary-btn { display: inline-block; background: #fdc632; padding: 0px 48px; color: #002347; font-size: 13px; font-weight: 500; line-height: 50px; border-radius: 5px; border: none !important; outline: none !important; text-align: center; text-transform: uppercase; cursor: pointer; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; }
 
 .primary-btn:hover { background: #002347; color: #fdc632; }
 
@@ -1479,6 +1479,8 @@ section h2 { font-size: 36px; }
 
 .header_area.navbar_fixed .title-tagline { color: black; }
 
+.navbar .nav .nav-item .nav-link { text-transform: uppercase; }
+
 .header_area.navbar_fixed .navbar .nav .nav-item .nav-link { color: black; }
 
 .header_area.navbar_fixed .navbar .nav .nav-item .nav-link:hover { color: #fdc632; cursor: pointer; }
@@ -1565,7 +1567,7 @@ label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
 
 .youtube-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } }
+@media screen and (max-width: 480px) { .nav-item .btn { width: 100%; margin: 5px; } .button { text-align: center; } .title-tagline { display: none; } footer a .fa, footer a i.fab, footer a i.far { font-size: 20px; } .footer-cert { display: none; } .primary-btn { border: 0 !important; } .btn-responsive { margin: inherit; width: 100%; } .modal.show .modal-dialog { width: 100%; margin: 0; height: 100%; } }
 
 .pride img { width: 80px; }
 
