@@ -48,16 +48,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   <link rel="stylesheet" href="/css/main.css" type="text/css">
   <link rel="alternate" type="application/rss+xml" title="checkmirrors" href="http://0.0.0.0:4000/feed.xml">
-  <script type="text/javascript">
-(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
-
-// Enabling the debug mode flag is useful during implementation,
-// but it's recommended you remove it for production
-mixpanel.init('666dcd0cf37faa23a64ad40f6e0129b2', {debug: true}); 
-mixpanel.track('Sign up');
-</script>
 </head>
 
 
@@ -66,7 +56,7 @@ mixpanel.track('Sign up');
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVRMH7T"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <section class="banner-covid justify-content-center">
+    <section class="banner-covid justify-content-center" id="banner-covid">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
@@ -92,8 +82,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -111,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="nav-link" href="" aria-label="Home" tabindex="0">Home</a>
           </li>
           <li class="nav-item submenu dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive <i class="fas fa-caret-down" tabindex="1"></i></a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn to Drive <i class="fas fa-caret-down" tabindex="1"></i></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="/driving-lessons-york/" aria-label="Lessons in York">Lessons in York</a>
               <a class="dropdown-item" href="/covid-19-update/" aria-label="COVID-19 Update">COVID-19 Update</a>
@@ -123,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="nav-link" href="/gift-vouchers/" aria-label="Gift Vouchers" tabindex="0">Vouchers</a>
           </li> -->
           <li class="nav-item submenu dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Instructors
             <i class="fas fa-caret-down"></i></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -133,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </li>
           <li class="nav-item">
-            <button class="primary-btn btn-bg btn-responsive" data-toggle="modal" data-target="#bookFormModal" aria-label="Book now">Book Now</button>
+            <button class="primary-btn btn-bg btn-responsive" data-bs-toggle="modal" data-bs-target="#bookFormModal" aria-label="Book now">Book Now</button>
           </li>
         </ul>
         </div>
@@ -248,13 +238,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="row justify-content-center mt-3">
     <div class="col-lg-8">
       <div class="text-center mb-3">
-<<<<<<< HEAD
         <h2 class="mb-3">Book from only £35 per hour or 10 lessons for £340</h2>
-        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#bookFormModal">Book Now</button>
-=======
-        <h2 class="mb-3">Book from only £30 per hour or 10 lessons for £290</h2>
-        <button class="primary-btn btn-bg btn-lg" data-toggle="modal" data-target="#bookFormModal">Book Now</button>
->>>>>>> 456456b680172a76a1f26dd8608257d40c7b2353
+        <button class="primary-btn btn-bg btn-lg" data-bs-toggle="modal" data-bs-target="#bookFormModal">Book Now</button>
       </div>
     </div>
   </div>
@@ -278,13 +263,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card">
           <div class="card-header" id="heading1">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#question1"  aria-expanded="true"  aria-controls="question1">
+              <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#question1"  aria-expanded="true"  aria-controls="question1">
                 What happens after July 19th?
               </button>
             </h2>
           </div>
 
-          <div id="question1"  class="collapse show"  aria-labelledby="headingOne1" data-parent="#faq_section">
+          <div id="question1"  class="collapse show"  aria-labelledby="headingOne1" data-bs-parent="#faq_section">
             <div class="card-body">
               <p>Even though the government has decided to lift most restrictions, we at checkmirrors have decided to continue to require face masks and sanitiser for both instructors and students.</p>
 
@@ -297,13 +282,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card">
           <div class="card-header" id="heading2">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#question2"  aria-expanded="false"  aria-controls="question2">
+              <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#question2"  aria-expanded="false"  aria-controls="question2">
                 Can I still book a driving lesson?
               </button>
             </h2>
           </div>
 
-          <div id="question2"  class="collapse"  aria-labelledby="headingOne2" data-parent="#faq_section">
+          <div id="question2"  class="collapse"  aria-labelledby="headingOne2" data-bs-parent="#faq_section">
             <div class="card-body">
               <p>Checkmirrors are back to operating as usual which means you can now book and have your lessons with our excellent team of ADI Driving Instructors. You can book your driving lessons with checkmirrors by <a href="tel:07821291783">calling 07821 291 783</a> or <a href="https://www.checkmirrors.co.uk/book-now/" title="Book now">booking online</a>. All of the checkmirros driving instructors will be following government guidance and national and local lockdown rules.</p>
 
@@ -314,13 +299,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card">
           <div class="card-header" id="heading3">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#question3"  aria-expanded="false"  aria-controls="question3">
+              <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#question3"  aria-expanded="false"  aria-controls="question3">
                 Are you accepting new students?
               </button>
             </h2>
           </div>
 
-          <div id="question3"  class="collapse"  aria-labelledby="headingOne3" data-parent="#faq_section">
+          <div id="question3"  class="collapse"  aria-labelledby="headingOne3" data-bs-parent="#faq_section">
             <div class="card-body">
               <p>Yes, we are still be accepting new students. We will ask you some questions covid related questions prior to your first lesson to make sure you’re feeling well and able. Please <a href="https://www.checkmirrors.co.uk/book-now/">contact us here</a> or via our <a href="https://www.facebook.com/checkmirrors">Facebook page</a></p>
 
@@ -331,13 +316,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card">
           <div class="card-header" id="heading4">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#question4"  aria-expanded="false"  aria-controls="question4">
+              <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#question4"  aria-expanded="false"  aria-controls="question4">
                 What do you do to protect against the virus?
               </button>
             </h2>
           </div>
 
-          <div id="question4"  class="collapse"  aria-labelledby="headingOne4" data-parent="#faq_section">
+          <div id="question4"  class="collapse"  aria-labelledby="headingOne4" data-bs-parent="#faq_section">
             <div class="card-body">
               <p>Here at checkmirrors we have several procedures in place to protect our students and driving instructors alike, which we review regularly in line with government guidance.</p>
 <ul>
@@ -428,14 +413,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 
-    <div class="modal fade" id="bookFormModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade" id="bookFormModal" tabindex="-1" aria-labelledby="bookFormModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Book lessons with checkmirrors</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title" id="bookFormModalLabel">Book lessons with checkmirrors</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
@@ -464,15 +447,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <script src="/js/jquery-3.2.1.min.js"></script>
-<script src="/js/popper.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="/js/jquery.background-video.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
-<script src="/js/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <script src="/js/theme.js"></script>
-<script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
-<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5357756.js"></script> -->
 <script src="/js/scripts.js" type="text/javascript"></script>
 
   </body>

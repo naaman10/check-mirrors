@@ -2,16 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>checkmirrors</title>
-    <description>Learn to drive in York and the surrounding area. Female Instructors, NHS Discount &amp; Pass Plus options available in York. We are fully COVID secure.</description>
+    <description>Learn to drive in York and the surrounding area. Female Instructors, Manual and Automatic, NHS Discount &amp; Pass Plus options available in York. We are fully COVID secure.</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Tue, 17 May 2022 10:03:21 +0000</pubDate>
-    <lastBuildDate>Tue, 17 May 2022 10:03:21 +0000</lastBuildDate>
-=======
-    <pubDate>Tue, 17 May 2022 10:02:12 +0000</pubDate>
-    <lastBuildDate>Tue, 17 May 2022 10:02:12 +0000</lastBuildDate>
->>>>>>> 456456b680172a76a1f26dd8608257d40c7b2353
+    <pubDate>Thu, 26 May 2022 16:33:56 +0000</pubDate>
+    <lastBuildDate>Thu, 26 May 2022 16:33:56 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>

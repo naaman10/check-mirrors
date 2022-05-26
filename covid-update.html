@@ -130,13 +130,13 @@ faq_section:
         <div class="card">
           <div class="card-header" id="heading{{forloop.index}}">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#question{{forloop.index}}" {% if forloop.index == 1 %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="question{{forloop.index}}">
+              <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#question{{forloop.index}}" {% if forloop.index == 1 %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="question{{forloop.index}}">
                 {{ question.question_text }}
               </button>
             </h2>
           </div>
 
-          <div id="question{{forloop.index}}" {% if forloop.index == 1 %} class="collapse show" {% else %} class="collapse" {% endif %} aria-labelledby="headingOne{{forloop.index}}" data-parent="#faq_section">
+          <div id="question{{forloop.index}}" {% if forloop.index == 1 %} class="collapse show" {% else %} class="collapse" {% endif %} aria-labelledby="headingOne{{forloop.index}}" data-bs-parent="#faq_section">
             <div class="card-body">
               {{ question.answer_text | markdownify }}
             </div>
