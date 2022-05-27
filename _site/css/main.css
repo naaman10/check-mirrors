@@ -1540,7 +1540,7 @@ ul.home-features { padding-left: 0px !important; }
 
 .home-features li { list-style: none; }
 
-.banner_area { background-image: url("/img/home-new.jpeg"); background-size: cover; background-repeat: no-repeat; }
+.banner_area { background-image: url("https://res.cloudinary.com/njh101010/image/upload/q_auto/v1637675034/checkmirrors/home-new.webp"); background-size: cover; background-repeat: no-repeat; }
 
 .banner_area h1 { font-size: 45px; }
 
