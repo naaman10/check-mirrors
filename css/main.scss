@@ -215,6 +215,9 @@ section h2 {
 .nav-link i.fas.fa-caret-down {
     margin-left: 10px;
 }
+.navbar-toggler:focus {
+  box-shadow: none;
+}
 .home_banner_area {
   background-image: url("https://res.cloudinary.com/njh101010/image/upload/f_webp,q_auto/v1637675034/checkmirrors/home-new2.webp");
   color: white;

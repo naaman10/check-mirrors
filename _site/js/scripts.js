@@ -1,25 +1,4 @@
-$(document).ready(function() {
-  $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function() {
-    $(this).toggleClass('open');
-  });
-  $('.my-background-video').bgVideo({
-    fullScreen: false, // Sets the video to be fixed to the full window - your <video> and it's container should be direct descendents of the <body> tag
-    fadeIn: 500,
-    pauseAfter: 120,
-    fadeOnPause: false,
-    fadeOnEnd: true,
-    showPausePlay: true, // Show pause/play button
-    pausePlayXPos: 'right', // left|right|center
-    pausePlayYPos: 'top', // top|bottom|center
-    pausePlayXOffset: '15px', // pixels or percent from side - ignored if positioned center
-    pausePlayYOffset: '15px' // pixels or percent from top/bottom - ignored if positioned center
-  });
-  $('#footModal').on('click', function(event){
-    event.preventDefault();
-    $('#bookFormModal').modal('show');
-  });
-});
-
+// Covid Banner
 document.getElementById('banner-dismiss').addEventListener("click", covidBanner);
 document.addEventListener("DOMContentLoaded", covidCheck);
 function covidBanner() {
@@ -41,3 +20,16 @@ function covidCheck() {
     document.getElementById('banner-covid').style.display = "inline";
   }
 }
+// changes header to fied on scroll
+let scrollpos = window.scrollY
+const header = document.querySelector(".header_area")
+const header_height = header.offsetHeight
+const add_class_on_scroll = () => header.classList.add("navbar_fixed")
+const remove_class_on_scroll = () => header.classList.remove("navbar_fixed")
+window.addEventListener('scroll', function() { 
+  scrollpos = window.scrollY;
+  if (scrollpos >= header_height) { add_class_on_scroll() }
+  else { remove_class_on_scroll() }
+})
+
+const carousel = new bootstrap.Carousel('#myCarousel')
