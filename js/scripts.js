@@ -32,4 +32,3 @@ window.addEventListener('scroll', function() {
   else { remove_class_on_scroll() }
 })
 
-const carousel = new bootstrap.Carousel('#myCarousel')
