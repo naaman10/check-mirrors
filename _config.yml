@@ -34,3 +34,4 @@ year:
 pass-date:
 include:
 - ".htaccess"
+cloudinary_url: https://res.cloudinary.com/njh101010/image/upload
