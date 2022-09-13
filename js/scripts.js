@@ -32,3 +32,19 @@ window.addEventListener('scroll', function() {
   else { remove_class_on_scroll() }
 })
 
+// analytics
+document.getElementById('callBtn').addEventListener("click", callAnalytics);
+document.getElementById('hsForm_aae7163f-7c3d-447b-af1a-7b16229a8c81').addEventListener("submit", bookAnalytics)
+
+function callAnalytics() {
+  gtag('event', 'callButton', {
+    'clickToCall': true
+  });
+}
+function bookAnalytics() {
+  gtag('event', 'bookSubmit', {
+    'formName': "Student Booking Form",
+    'page': document.title,
+    
+  });
+}
