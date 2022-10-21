@@ -5,7 +5,8 @@
     "phone": "07821291783"
   },
   "prices": {
-    "pricePerLesson": "£35",
+    "pricePerLesson": "£37",
+    "pricePerAuto": "£40",
     "priceForTen": "£340",
     "passPlusPrice": "£240"
   },
