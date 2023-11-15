@@ -16,5 +16,5 @@ From your repo use:
 
 followed by:
 
-    $jekyll serve --host 0.0.0.0
+    $bundle exec jekyll serve --host 0.0.0.0
 using `--host 0.0.0.0` will allow you to access the localhost from another device on your network. From another device go to the [localhost IP]:4000/, for example 192.168.0.48:4000/.
