@@ -4172,7 +4172,7 @@ section h2 {
   height: 15px;
   background-color: white;
   width: 5px;
-  display: inline-block;
+  display: none;
   position: relative;
   left: -3px;
   top: 3px;

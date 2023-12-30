@@ -27,6 +27,7 @@ corona_open_text: "checkmirrors is still open for lessons, this will be continuo
 corona_closed_title: "Lessons are delayed"
 corona_closed_text: "Inline with government guidance, checkmirrors is currently closed. We will notify existing students when lessons can recommence."
 shareImage: "/img/checkmirrors-team-fb-share.jpg"
+disclaimer: "Driving instructors associated with Checkmirrors Ltd are independent self-employed professionals. Checkmirrors Ltd is not liable for any transactions, agreements, or disputes between driving instructors and pupils. All dealings are solely the responsibility of the parties involved."
 baseurl:
 url: https://www.checkmirrors.co.uk
 markdown: kramdown
