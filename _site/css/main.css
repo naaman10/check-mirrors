@@ -4160,7 +4160,7 @@ section h2 {
 }
 .googleReview .googleReviewImage {
   width: 60%;
-  display: block;
+  display: block !important;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
