@@ -5,13 +5,13 @@
     <div class="row no-gutters">
       <div class="col-md-4">
         <div class="card-img new-rounded">
-          <img src="{{ site.cloudinary_url }}/c_fill,g_face:center,h_368,w_392{{ instructor.instructor_image }}" alt="{{ instructor.instructor_name }}">
+          <img src="{{ site.cloudinary_url }}/g_face:center{{ instructor.instructor_image }}" alt="{{ instructor.instructor_name }}">
         </div>
       </div>
       <div class="col-md-8">
         <div class="card-body">
           <h3 class="card-title">{{ instructor.instructor_name }}</h3>
-          <p class="small">{{ instructor.instructor_info }}</p>
+          {% if instructor.info %}<p class="small">{{ instructor.instructor_info }}</p>{% endif %}
           <p class="card-text">{{ instructor.instructor_bio }}</p>
         </div>
       </div>

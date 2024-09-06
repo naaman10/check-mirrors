@@ -4224,7 +4224,7 @@ section h2 {
 }
 
 .home_banner_area {
-  background-image: url("https://res.cloudinary.com/njh101010/image/upload/f_webp,q_auto/v1637675034/checkmirrors/home-new2.webp");
+  background-image: url("https://res.cloudinary.com/njh101010/image/upload/t_homebanner/checkmirrors/2024/image00014.webp");
   color: white;
 }
 
@@ -4342,7 +4342,7 @@ ul.home-features {
 }
 
 .banner_area {
-  background-image: url("https://res.cloudinary.com/njh101010/image/upload/q_auto/v1637675034/checkmirrors/home-new.webp");
+  background-image: url("https://res.cloudinary.com/njh101010/image/upload/t_pagebanner/checkmirrors/2024/image00017.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -4487,6 +4487,9 @@ label.error {
   .testimonial-card .card-title {
     height: 64px;
   }
+}
+.Forms__FormsViralityContainer-sc-11vy283-0 {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
