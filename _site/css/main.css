@@ -1557,6 +1557,8 @@ ul.home-features { padding-left: 0px !important; }
 
 .footer-area.section_gap { padding: 50px 0; }
 
+.footer-area .footer-bottom a.termly-display-preferences { color: #7b838a; }
+
 input.success, textarea.success { background-color: white; border: 1px solid green !important; }
 
 label.error { width: 100%; text-align: left; font-size: 80%; color: #dc3545; }
