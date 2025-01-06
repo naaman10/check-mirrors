@@ -3,5 +3,5 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - before: gem install bundler jekyll
+  - before: bundle install
     init: bundle exec jekyll serve
